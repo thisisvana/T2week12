@@ -1,0 +1,182 @@
+
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+// .bg {
+//   background-color: rgba(255, 255, 255, 1.0);
+//
+// }
+.page-header {
+  height: 9rem;
+}
+.logo {
+  img{
+    float: right;
+    width: 8rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+            display: block;
+            padding: 2rem 0;
+            width:7rem;
+    }
+    @media screen and (max-width: $mobile-max) {
+            width: 8rem;
+            margin: 1rem;
+            float: left;
+    }
+  }
+
+}
+
+.main-menu {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li{
+    flex:1;
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: $text-color;
+    height: 2rem;
+
+    &:hover {
+        color: $dark-grey;
+
+    }
+  }
+
+  // @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+  //    display: block;
+  //    width: 100%;
+  //    li {
+  //
+  //        float: left;
+  //        width: 25%;
+  //        a{
+  //           display: block;
+  //
+  //
+  //
+  //
+  //        }
+  //    }
+  // }
+}
+.mobile-menu {
+  position:absolute;
+  right: 2rem;
+  top: 6rem;
+  font-size: 2rem;
+
+}
+
+.book-btn {
+  float: right;
+  margin: 1rem 0 0 1rem;
+
+}
+//
+//
+//
+// // .logo {
+// //     img {
+// //       width: 6rem;
+// //     }
+// //     // }
+// //     // @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+// //     //     display: block;
+// //     //     text-align: center;
+// //     //     padding: 2rem 0;
+// //     // }
+// //     //
+// //     // @media screen and (min-width: $tablet-min) {
+// //     //     background-color: transparent;
+// //     //
+// //     // }
+// //     //
+// //     // @media screen and (min-width: $desktop-min) {
+// //     //     float: left;
+// //     //     padding: 0;
+// //     // }
+// // }
+//
+// .icon-resp {
+//     position: absolute;
+//     top: 0; right: 0;
+//     color:  $light-grey;
+//     display: inline-block;
+//     background-color: $dark-grey;
+//     padding: 0.68rem 1rem;
+//     &:hover {
+//         background-color: $mid-grey;
+//         color: $dark-grey
+//     }
+// }
+//
+.show {
+    display: block !important;
+}
+//
+// .header-nav-menu {
+//     margin: 0; padding: 0;
+//     list-style-type: none;
+//     display: none;
+//     a {
+//         display: block;
+//         padding: 0.7rem;
+//         background-color: $dark-grey;
+//         &:hover {
+//             background-color: $light-grey;
+//         }
+//     }
+//     @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+//         display: block;
+//         padding: 1rem 0 0.5rem;
+//         width: 100%;
+//         li {
+//             float: left;
+//             width: 25%;
+//         }
+//     }
+//
+//     @media screen and (min-width: $tablet-min) {
+//         li {
+//             text-align: center;
+//             float: left;
+//         }
+//         a {
+//             display: inline-block;
+//             text-align: center;
+//             background-color: transparent;
+//             padding: 0 0 0.7rem 0;
+//             border-bottom: 4px solid transparent;
+//             text-transform: uppercase;
+//             &:hover {
+//                 background-color: transparent;
+//                 font-weight: bolder;
+//                 text-decoration: none;
+//                 border-bottom: 4px solid $dark-grey;
+//             }
+//         }
+//     }
+//
+//     @media screen and (min-width: $desktop-min) {
+//         position: absolute;
+//         right: 0;
+//         top: 7rem;
+//         display: block;
+//         float: right;
+//         li {
+//             margin-left: 3rem;
+//             width: 7rem;
+//         }
+//     }
+// }
