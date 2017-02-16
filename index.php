@@ -5,7 +5,7 @@
               <div class="row-expand">
                   <div class="small-12 medium-12 large-3 columns">
                       <div class="sidebar-home">
-                        <h2>Awaken your senses</h2>
+                        <h2>Home</h2>
                       </div>
 
                   </div>
@@ -94,10 +94,10 @@
                     <section class="small-12 medium-6 large-4 columns">
                         <div class="featured-item">
 
-                            <a href="#" class="featured-img"><img src="img/hotel10.jpg" alt="boutique hotel room" /></a>
+                            <a href="rooms.php" class="featured-img"><img src="img/hotel10.jpg" alt="boutique hotel room" /></a>
                             <div class="featured-text">
 
-                                    <h2>Check out the romms</h2>
+                                    <h2>Check out the rooms</h2>
                                     <p>This is awesome</p>
 
                                 <p>Step into the intimate lobby of <span>The Get Away</span>
@@ -105,7 +105,7 @@
                               four-star hotel nestled near the city center of Barcelona.</p>
                             </div>
                             <div class="arrows">
-                                <a href="#">
+                                <a href="rooms.php">
                                     <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
 
                                   </a>
@@ -114,7 +114,7 @@
                     </section>
                     <section class="small-12 medium-6 large-4 columns">
                         <div class="featured-item">
-                            <a href="#" class="featured-img"><img src="img/choc.jpg" alt="boutique hotel room" /></a>
+                            <a href="packages.php" class="featured-img"><img src="img/choc.jpg" alt="boutique hotel room" /></a>
                             <div class="featured-text">
 
                                 <h2>Check out our special offers</h2>
@@ -125,7 +125,7 @@
                               four-star hotel nestled near the city center of Barcelona.</p>
                             </div>
                             <div class="arrows">
-                                <a href="#">
+                                <a href="packages.php">
                                     <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
 
                                   </a>

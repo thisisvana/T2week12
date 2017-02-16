@@ -5,7 +5,10 @@ emoh-rabedisrabedis// ----------------------------------------------------------
   margin: 2rem 0;
 }
 .heading-para {
-  margin: 1rem 0;
+  margin: 2rem 0;
+  h2 {
+    font-family: 'Arapey', serif;
+  }
 }
 // .slideshow {
 //   img{
@@ -28,6 +31,8 @@ emoh-rabedisrabedis// ----------------------------------------------------------
     padding: 1.5rem;
     margin: auto;
     text-transform: uppercase;
+  
+    letter-spacing: 1;
   }
   @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
       height: 20vh;
