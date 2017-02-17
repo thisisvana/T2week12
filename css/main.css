@@ -2648,7 +2648,8 @@ body {
 
 .featured-item {
   border: 0.1rem solid white;
-  padding: 2rem; }
+  padding: 2rem;
+  background-image: url("../img/barcabw.jpg"); }
 
 .featured {
   margin: 2rem 0; }
@@ -2740,7 +2741,8 @@ body {
       height: 15vh; } }
 
 .packages-item {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  border: 0.1rem solid #ededed; }
 
 .sidebar-restaurant {
   display: flex;

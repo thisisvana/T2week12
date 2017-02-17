@@ -1,9 +1,13 @@
 
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+body{
+  // background-image: url("../img/brown.jpg");
+}
 .featured-item {
   border: 0.1rem solid rgba(260, 260, 260, 1);
   padding: 2rem;
+  background-image: url("../img/barcabw.jpg");
 }
 .featured {
   margin: 2rem 0;
@@ -20,6 +24,7 @@
 // }
 .sidebar {
   padding: 0;
+
 }
 .sidebar-home {
 
