@@ -479,6 +479,11 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+h2 {
+  font-size: 2rem;
+  color: #bc7a58;
+  font-family: "Arapey", serif; }
+
 /* Grouping content
        ========================================================================== */
 /**
@@ -2558,6 +2563,9 @@ body {
 .show {
   display: block !important; }
 
+.page-footer {
+  background-image: url("../img/barcabw.jpg"); }
+
 .footer-box {
   text-align: center;
   margin: 3rem 0; }
@@ -2638,14 +2646,15 @@ body {
     background-color: white;
     color: #bc7a58; }
 
-emoh-rabedisrabedis
+.featured-item {
+  border: 0.1rem solid white;
+  padding: 2rem; }
+
 .featured {
   margin: 2rem 0; }
 
 .heading-para {
   margin: 2rem 0; }
-  .heading-para h2 {
-    font-family: 'Arapey', serif; }
 
 .sidebar {
   padding: 0; }
@@ -2656,13 +2665,13 @@ emoh-rabedisrabedis
   height: 100vh;
   background-color: #ff3333;
   margin-bottom: 2rem; }
-  .sidebar-home h2 {
+  .sidebar-home h1 {
     color: white;
     display: flex;
     padding: 1.5rem;
     margin: auto;
     text-transform: uppercase;
-    letter-spacing: 1; }
+    letter-spacing: 2; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .sidebar-home {
       height: 20vh; } }

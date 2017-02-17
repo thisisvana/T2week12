@@ -5,7 +5,7 @@
               <div class="row-expand">
                   <div class="small-12 medium-12 large-3 columns">
                       <div class="sidebar-home">
-                        <h2>Home</h2>
+                        <h1>Home</h1>
                       </div>
 
                   </div>
@@ -136,12 +136,12 @@
                         <div class="featured-item">
 
                             <!-- Box -->
-                            <a href="#" class="featured-img"><img src="img/coctail-room.jpg" alt="boutique hotel room" /></a>
+                            <img src="img/coctail-room.jpg" alt="boutique hotel room" />
                             <div class="featured-text">
 
                                     <h2>Check out this thing</h2>
                                     <p>It is awesome</p>
-                                </header>
+
                                 <p>Step into the intimate lobby of <span>The Get Away</span>
                               and discover the glamarous decor of this contemporary
                               four-star hotel nestled near the city center of Barcelona.</p>
@@ -167,7 +167,7 @@
                     <!-- Sidebar -->
                     <div class="small-12 large-8 columns">
                         <section class="">
-                            <h3>Cool things to do</h3>
+                            <h2>Cool things to do</h2>
                             <div class="main-mosaic">
                                 <div class="row">
                                     <div class="small-6 column sidebar-img"><a href="#" class="fit"><img src="img/food1.jpg" alt="boutique hotel room" /></a></div>

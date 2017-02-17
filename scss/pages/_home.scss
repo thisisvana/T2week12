@@ -1,14 +1,16 @@
-emoh-rabedisrabedis// -----------------------------------------------------------------------------
+
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.featured-item {
+  border: 0.1rem solid rgba(260, 260, 260, 1);
+  padding: 2rem;
+}
 .featured {
   margin: 2rem 0;
 }
 .heading-para {
   margin: 2rem 0;
-  h2 {
-    font-family: 'Arapey', serif;
-  }
+
 }
 // .slideshow {
 //   img{
@@ -20,19 +22,20 @@ emoh-rabedisrabedis// ----------------------------------------------------------
   padding: 0;
 }
 .sidebar-home {
+
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-color: rgba(255, 51, 51, 1.0);
   margin-bottom: 2rem;
-  h2 {
+  h1 {
     color: rgba(255, 255, 255, 1.0);
     display: flex;
     padding: 1.5rem;
     margin: auto;
     text-transform: uppercase;
-  
-    letter-spacing: 1;
+
+    letter-spacing: 2;
   }
   @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
       height: 20vh;
