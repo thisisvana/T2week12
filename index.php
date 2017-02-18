@@ -97,7 +97,7 @@
                             <a href="rooms.php" class="featured-img"><img src="img/hotel10.jpg" alt="boutique hotel room" /></a>
                             <div class="featured-text">
 
-                                    <h2>Check out the rooms</h2>
+                                    <h2>Check out our rooms</h2>
                                     <p>This is awesome</p>
 
                                 <p>Step into the intimate lobby of <span>The Get Away</span>
@@ -117,7 +117,7 @@
                             <a href="packages.php" class="featured-img"><img src="img/choc.jpg" alt="boutique hotel room" /></a>
                             <div class="featured-text">
 
-                                <h2>Check out our special offers</h2>
+                                <h2>Check our special offers</h2>
                                 <p>This is awsome</p>
 
                                 <p>Step into the intimate lobby of <span>The Get Away</span>
@@ -139,7 +139,7 @@
                             <img src="img/coctail-room.jpg" alt="boutique hotel room" />
                             <div class="featured-text">
 
-                                    <h2>Check out this thing</h2>
+                                    <h2>Room service vailable</h2>
                                     <p>It is awesome</p>
 
                                 <p>Step into the intimate lobby of <span>The Get Away</span>

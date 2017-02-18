@@ -2,8 +2,9 @@
 .sidebar-restaurant {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: rgba(98, 191, 134, 1.0);
+  height: 100vh;
+  background-image: url("../img/green.jpg");
+  // background-color: rgba(98, 191, 134, 1.0);
   margin-bottom: 2rem;
   h2 {
     color: rgba(255, 255, 255, 1.0);

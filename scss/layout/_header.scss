@@ -7,6 +7,7 @@
 // }
 .page-header {
   height: 9rem;
+  padding: 0;
 }
 .logo {
   img{
@@ -39,7 +40,7 @@
     list-style: none;
     font-size: 1rem;
     padding: 0.5rem;
-    
+
   }
   a{
     display: flex;
@@ -71,11 +72,15 @@
   //    }
   // }
 }
+.show {
+    display: block !important;
+}
 .mobile-menu {
   position:absolute;
   right: 2rem;
   top: 6rem;
   font-size: 2rem;
+
 
 }
 
@@ -122,9 +127,7 @@
 //     }
 // }
 //
-.show {
-    display: block !important;
-}
+
 //
 // .header-nav-menu {
 //     margin: 0; padding: 0;

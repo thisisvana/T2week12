@@ -7,6 +7,10 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Arya");
+@import url("https://fonts.googleapis.com/css?family=Oranienbaum");
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+@import url("https://fonts.googleapis.com/css?family=Belleza");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -476,13 +480,24 @@ section {
      * `article` contexts in Chrome, Firefox, and Safari.
      */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
+  color: white;
+  display: flex;
+  padding: 1.5rem;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Bellezza", sans-serif;
+  font-size: 2.2rem; }
 
 h2 {
   font-size: 2rem;
   color: #bc7a58;
-  font-family: "Arapey", serif; }
+  font-family: "Oranienbaum", serif; }
+
+p {
+  font-family: "Philosopher", sans-serif;
+  font-size: 1rem;
+  font-weight: lighter; }
 
 /* Grouping content
        ========================================================================== */
@@ -2513,7 +2528,8 @@ body {
   width: 1px; }
 
 .page-header {
-  height: 9rem; }
+  height: 9rem;
+  padding: 0; }
 
 .logo img {
   float: right;
@@ -2550,6 +2566,9 @@ body {
     .main-menu a:hover {
       color: #444444; }
 
+.show {
+  display: block !important; }
+
 .mobile-menu {
   position: absolute;
   right: 2rem;
@@ -2559,9 +2578,6 @@ body {
 .book-btn {
   float: right;
   margin: 1rem 0 0 1rem; }
-
-.show {
-  display: block !important; }
 
 .page-footer {
   background-image: url("../img/barcabw.jpg"); }
@@ -2638,7 +2654,8 @@ body {
   padding: 0.5rem 1rem;
   background-color: #bc7a58;
   text-align: center;
-  color: #fefefe; }
+  color: #fefefe;
+  border: 0.1rem solid #bc7a58; }
   .btn a {
     text-decoration: none; }
   .btn:hover {
@@ -2648,7 +2665,8 @@ body {
 
 .featured-item {
   border: 0.1rem solid white;
-  padding: 2rem; }
+  padding: 2rem;
+  background-image: url("../img/barcabw.jpg"); }
 
 .featured {
   margin: 2rem 0; }
@@ -2663,15 +2681,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #ff3333;
+  background-image: url("../img/dark-red.jpg");
   margin-bottom: 2rem; }
-  .sidebar-home h1 {
-    color: white;
-    display: flex;
-    padding: 1.5rem;
-    margin: auto;
-    text-transform: uppercase;
-    letter-spacing: 2; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .sidebar-home {
       height: 20vh; } }
@@ -2682,15 +2693,9 @@ body {
 .sidebar-rooms {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: #f29a29;
+  height: 100vh;
+  background-image: url("../img/yellow.jpg");
   margin-bottom: 2rem; }
-  .sidebar-rooms h2 {
-    color: white;
-    display: flex;
-    padding: 1.5rem;
-    margin: auto;
-    text-transform: uppercase; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .sidebar-rooms {
       height: 20vh; } }
@@ -2701,15 +2706,9 @@ body {
 .sidebar-gallery {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: #59b7c1;
+  height: 100vh;
+  background-image: url("../img/light-blue.jpg");
   margin-bottom: 2rem; }
-  .sidebar-gallery h2 {
-    color: white;
-    display: flex;
-    padding: 1.5rem;
-    margin: auto;
-    text-transform: uppercase; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .sidebar-gallery {
       height: 20vh; } }
@@ -2723,8 +2722,8 @@ body {
 .sidebar-packages {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: #c710c0;
+  height: 90vh;
+  background-image: url("../img/pink.jpg");
   margin-bottom: 2rem; }
   .sidebar-packages h2 {
     color: white;
@@ -2745,8 +2744,8 @@ body {
 .sidebar-restaurant {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: #62bf86;
+  height: 100vh;
+  background-image: url("../img/green.jpg");
   margin-bottom: 2rem; }
   .sidebar-restaurant h2 {
     color: white;
@@ -2764,15 +2763,9 @@ body {
 .sidebar-spa {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: #508ef1;
+  height: 100vh;
+  background-image: url("../img/blue.jpg");
   margin-bottom: 2rem; }
-  .sidebar-spa h2 {
-    color: white;
-    display: flex;
-    padding: 1.5rem;
-    margin: auto;
-    text-transform: uppercase; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .sidebar-spa {
       height: 20vh; } }
@@ -2783,20 +2776,137 @@ body {
 .sidebar-barca {
   display: flex;
   flex-direction: column;
-  height: 120vh;
-  background-color: #fdd146;
+  height: 100vh;
+  background-image: url("../img/lemon.jpg");
   margin-bottom: 2rem; }
-  .sidebar-barca h2 {
-    color: white;
-    display: flex;
-    padding: 1.5rem;
-    margin: auto;
-    text-transform: uppercase; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .sidebar-barca {
       height: 20vh; } }
   @media screen and (max-width: 39.9375rem) {
     .sidebar-barca {
       height: 15vh; } }
+
+.sidebar-contact {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../img/yellow.jpg");
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
+    .sidebar-contact {
+      height: 20vh; } }
+  @media screen and (max-width: 39.9375rem) {
+    .sidebar-contact {
+      height: 15vh; } }
+
+.contact-page {
+  background-image: url("../img/barcabw.jpg"); }
+
+.contact-form {
+  width: 60%;
+  margin: 4rem auto; }
+
+.form-group {
+  margin-bottom: 20px; }
+
+h2.heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: left;
+  color: #bc7a58;
+  border-bottom: 1px solid #bc7a58;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  font-family: "Arya", sans-serif; }
+
+.controls {
+  text-align: left;
+  position: relative; }
+  .controls input[type="text"],
+  .controls input[type="email"],
+  .controls input[type="number"],
+  .controls input[type="date"],
+  .controls input[type="tel"],
+  .controls textarea,
+  .controls button,
+  .controls select {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #bc7a58;
+    width: 100%;
+    margin-bottom: 18px;
+    color: #888;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 16px;
+    font-weight: 300;
+    transition: all .3s; }
+    .controls input[type="text"]:focus, .controls input[type="text"]:hover,
+    .controls input[type="email"]:focus,
+    .controls input[type="email"]:hover,
+    .controls input[type="number"]:focus,
+    .controls input[type="number"]:hover,
+    .controls input[type="date"]:focus,
+    .controls input[type="date"]:hover,
+    .controls input[type="tel"]:focus,
+    .controls input[type="tel"]:hover,
+    .controls textarea:focus,
+    .controls textarea:hover,
+    .controls button:focus,
+    .controls button:hover,
+    .controls select:focus,
+    .controls select:hover {
+      outline: none;
+      border-color: #bc7a58; }
+      .controls input[type="text"]:focus + label, .controls input[type="text"]:hover + label,
+      .controls input[type="email"]:focus + label,
+      .controls input[type="email"]:hover + label,
+      .controls input[type="number"]:focus + label,
+      .controls input[type="number"]:hover + label,
+      .controls input[type="date"]:focus + label,
+      .controls input[type="date"]:hover + label,
+      .controls input[type="tel"]:focus + label,
+      .controls input[type="tel"]:hover + label,
+      .controls textarea:focus + label,
+      .controls textarea:hover + label,
+      .controls button:focus + label,
+      .controls button:hover + label,
+      .controls select:focus + label,
+      .controls select:hover + label {
+        color: #a3a09d;
+        cursor: text; }
+  .controls .fa-sort {
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    color: #999; }
+  .controls select {
+    cursor: pointer; }
+  .controls label {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    width: 60%;
+    color: #999;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0);
+    transition: color .3s, top .3s, background-color .8s;
+    background-color: white; }
+    .controls label.active {
+      top: -11px;
+      color: #555;
+      background-color: white;
+      width: auto; }
+  .controls textarea {
+    resize: none;
+    height: 200px; }
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /*# sourceMappingURL=main.css.map */
