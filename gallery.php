@@ -5,7 +5,7 @@
              <div class="row-expand">
                  <div class="small-12 medium-12 large-3 columns">
                      <div class="sidebar-gallery">
-                       <h2>Gallery</h2>
+                       <h1>Gallery</h1>
                      </div>
                      <div class="featured-item">
 

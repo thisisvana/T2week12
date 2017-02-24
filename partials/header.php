@@ -37,7 +37,7 @@
                         <a href="javascript:void(0);" onclick="mobileMenu()">&#9776;</a>
                     </div> -->
 
-                        <ul class="main-menu show-for-large clearfix">
+                        <ul class="main-menu show-for-large">
                             <li><a href="index.php">Home</a></li>
                             <li><a href="rooms.php">Rooms</a></li>
                             <li><a href="gallery.php">Gallery</a></li>

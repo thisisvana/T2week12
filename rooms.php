@@ -7,7 +7,7 @@
              <div class="row-expand">
                  <div class="small-12 medium-12 large-3 columns">
                      <div class="sidebar-rooms">
-                       <h2>Rooms</h2>
+                       <h1>Rooms</h1>
                      </div>
 
                  </div>
@@ -111,11 +111,11 @@
                </div>
            </div>
 
-           <!-- Main -->
+        
            <div class="main-wrapper">
                <div class="row">
 
-                   <!-- Sidebar -->
+
 
                </div>
            </div>

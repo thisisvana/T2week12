@@ -1,9 +1,15 @@
 
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+<<<<<<< HEAD
 body{
   // background-image: url("../img/brown.jpg");
 }
+=======
+// body {
+//     background-image: url("../img/barcabw.jpg");
+// }
+>>>>>>> origin/master
 .featured-item {
   border: 0.1rem solid rgba(260, 260, 260, 1);
   padding: 2rem;
@@ -31,17 +37,10 @@ body{
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: rgba(255, 51, 51, 1.0);
+  background-image: url("../img/dark-red.jpg");
+  // background-color: rgba(255, 51, 51, 1.0);
   margin-bottom: 2rem;
-  h1 {
-    color: rgba(255, 255, 255, 1.0);
-    display: flex;
-    padding: 1.5rem;
-    margin: auto;
-    text-transform: uppercase;
 
-    letter-spacing: 2;
-  }
   @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
       height: 20vh;
   }

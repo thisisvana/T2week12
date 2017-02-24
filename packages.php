@@ -1,11 +1,11 @@
 <?php include "partials/header.php"; ?>
 
-<!-- Slide Show -->
+
 <div class="sidebar">
   <div class="row-expand">
       <div class="small-12 medium-12 large-3 columns">
           <div class="sidebar-packages">
-            <h2>Packages</h2>
+            <h1>Packages</h1>
           </div>
           <div class="featured-item">
 
@@ -98,12 +98,13 @@
           </div>
 
 
-  </div>
+      </div>
+    </div>
 </div>
 
 
 
-<!-- Main -->
+
 <div class="main-wrapper">
     <div class="row">
 

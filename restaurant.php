@@ -5,7 +5,7 @@
              <div class="row-expand">
                  <div class="small-12 medium-12 large-3 columns">
                      <div class="sidebar-restaurant">
-                       <h2>restaurant</h2>
+                       <h1>restaurant</h1>
                      </div>
                      <div class="featured-item">
 
@@ -26,7 +26,13 @@
                      <div class="slideshow">
                        <img src="img/chef.jpg" alt="boutique hotel room"/>
                      </div>
-
+                     <div class="heading-para">
+                         <h2>We love good food</h2>
+                         <p>Step into the intimate lobby of <span>The Get Away</span>
+                           and discover the glamarous decor of this contemporary<br>
+                           four-star hotel nestled near the city center of Barcelona.
+                        </p>
+                      </div>
 
 
                      <div class="small-12 medium-6 large-6 columns">
