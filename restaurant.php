@@ -3,7 +3,7 @@
            <!-- Slide Show -->
            <div class="sidebar">
              <div class="row-expand">
-                 <div class="small-12 medium-12 large-3 columns">
+                 <div class="small-12 medium-12 large-2 columns">
                      <div class="sidebar-restaurant">
                        <h1>restaurant</h1>
                      </div>
@@ -22,7 +22,7 @@
                      </div>
 
                  </div>
-                 <div class="small-12 medium-12 large-9 columns">
+                 <div class="small-12 medium-12 large-10 columns">
                      <div class="slideshow">
                        <img src="img/chef.jpg" alt="boutique hotel room"/>
                      </div>

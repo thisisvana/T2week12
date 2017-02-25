@@ -3,7 +3,7 @@
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 60vh;
   background-image: url("../img/light-blue.jpg");
   // background-color: rgba(89, 183, 193, 1);
   margin-bottom: 2rem;
@@ -17,4 +17,23 @@
 }
 .gallery-item{
   margin-top: 2rem;
+}
+
+.slider {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  .slides{
+    display:block;
+    width:100%;
+    height:60vh;
+    margin:0;
+    padding:0;
+    .slide{
+      float:left;
+      width:100%;
+      height: 60vh;
+    }
+
+  }
 }

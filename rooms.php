@@ -5,13 +5,13 @@
            <!-- Slide Show -->
            <div class="sidebar">
              <div class="row-expand">
-                 <div class="small-12 medium-12 large-3 columns">
+                 <div class="small-12 medium-12 large-2 columns">
                      <div class="sidebar-rooms">
                        <h1>Rooms</h1>
                      </div>
 
                  </div>
-                 <div class="small-12 medium-12 large-9 columns">
+                 <div class="small-12 medium-12 large-10 columns">
                      <div class="slideshow">
                        <img src="img/hotel9.jpg" alt="boutique hotel room"/>
                      </div>
@@ -111,7 +111,7 @@
                </div>
            </div>
 
-        
+
            <div class="main-wrapper">
                <div class="row">
 

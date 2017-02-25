@@ -2,30 +2,28 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 // .bg {
-//   background-color: rgba(255, 255, 255, 1.0);
-//
+//     background-color: $light-grey;
 // }
 .page-header {
   height: 9rem;
-<<<<<<< HEAD
-  // background-image: url("../img/brown.jpg");
-=======
-  padding: 0;
->>>>>>> origin/master
+  background-color: rgba(40, 44, 52, 1.0);
+  margin-bottom: 2rem;
+
 }
 .logo {
   img{
-    float: right;
+
     width: 8rem;
+    margin-left: 50%;
     padding: 1rem;
-    margin-left: 3rem;
+
     @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
             display: block;
             padding: 2rem 0;
-            width:7rem;
+            width:6rem;
     }
     @media screen and (max-width: $mobile-max) {
-            width: 8rem;
+            width: 7rem;
             margin: 1rem;
             float: left;
     }

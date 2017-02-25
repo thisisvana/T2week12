@@ -1,25 +1,45 @@
 
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
-<<<<<<< HEAD
-body{
-  // background-image: url("../img/brown.jpg");
-}
-=======
-// body {
-//     background-image: url("../img/barcabw.jpg");
-// }
->>>>>>> origin/master
-.featured-item {
-  border: 0.1rem solid rgba(260, 260, 260, 1);
+
+.logos{
+  display: flex;
+  margin:auto;
+  width:12rem;
+  height: 60vh;
+  background-color: rgba(44, 49, 58, 0.5);
   padding: 2rem;
-  background-image: url("../img/barcabw.jpg");
 }
-.featured {
-  margin: 2rem 0;
+.sample-movie{
+  // border: 0.4rem solid rgba(44, 49, 58, 1.0);
+  height: 60vh;
+  overflow:hidden;
+
+}
+
+.featured-item {
+  // border: 0.2rem solid rgba(44, 49, 58, 1.0);
+  padding: 2rem;
+  img{
+    border: 0.1rem solid rgba(44, 49, 58, 1.0);
+  }
+  // background-image: url("../img/barcabw.jpg");
+}
+
+.feat{
+  background-color:rgba(44, 49, 58, 1.0);
+  // border: 0.1rem solid rgba(44, 49, 58, 1.0);
+  height: 15vh;
 }
 .heading-para {
-  margin: 2rem 0;
+  margin: 3rem 0;
+
+}
+.bg-heading {
+
+    text-align: center;
+    color: $mid-grey;
+    letter-spacing: 1rem;
 
 }
 // .slideshow {
@@ -31,14 +51,17 @@ body{
 .sidebar {
   padding: 0;
 
+
 }
 .sidebar-home {
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  background-image: url("../img/dark-red.jpg");
+  height: 60vh;
+  background-image: url("../img/yellow.jpg");
+  // filter: grayscale(50%);
   // background-color: rgba(255, 51, 51, 1.0);
+  // border: 0.4rem solid rgba(44, 49, 58, 1.0);
   margin-bottom: 2rem;
 
   @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
@@ -47,6 +70,16 @@ body{
   @media screen and (max-width: $mobile-max) {
       height: 15vh;
   }
+
+}
+.certified-item{
+  
+  margin-top: 8rem;
+  display: flex;
+}
+.sidebar-img{
+  width: 10rem;
+  margin:auto;
 
 }
 // .page-wrapper {

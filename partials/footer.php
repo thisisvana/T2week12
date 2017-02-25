@@ -9,7 +9,7 @@
                         <div class="footer-form-box">
                              <input type="email" name="footer-email" id="footer-email" placeholder="example@example.com">
                              <button type="submit" name="f_submit" value="Send">Send</button>
-                         </div>
+                        </div>
                      </form>
                   </div>
                   <div class="footer-box small-12 medium-12 large-12 columns">
@@ -33,7 +33,8 @@
                           <p>+1 250 462 3994
                           <br>email@email.com</p>
                       </div>
-                  </div class="footer-text">
+                  </div>
+
                   <div class="footer-box small-12 medium-12 large-4 columns">
                      <div class="footer-text">
                           <i class="footer-icon fa fa-copyright" aria-hidden="true"></i>
@@ -48,12 +49,12 @@
           <footer class="page-sub-footer">
             <div class="row-expand">
 
-            </div>
+
               <div class="small-12 medium-12 large-12 columns">
                   <p>Explore  -  Dream  -  Discover</p>
               </div>
             </div>
-          </div>
+
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

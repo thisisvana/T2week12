@@ -3,7 +3,7 @@
            <!-- Slide Show -->
            <div class="sidebar">
              <div class="row-expand">
-                 <div class="small-12 medium-12 large-3 columns">
+                 <div class="small-12 medium-12 large-2 columns">
                      <div class="sidebar-gallery">
                        <h1>Gallery</h1>
                      </div>
@@ -22,10 +22,21 @@
                      </div>
 
                  </div>
-                 <div class="small-12 medium-12 large-9 columns">
-                     <div class="slideshow">
+                 <div class="small-12 medium-12 large-10 columns">
+                   <div class="slider">
+                     <ul class="slides">
+                       <li class="slide"><img src="img/hotel12.jpg" alt="boutique hotel room"/></li>
+                       <li class="slide"><img src="img/hotel14.jpg" alt="boutique hotel room"/></li>
+                       <li class="slide"><img src="img/hotel12.jpg" alt="boutique hotel room"/></li>
+                       <li class="slide"><img src="img/hotel14.jpg" alt="boutique hotel room"/></li>
+                       <li class="slide"><img src="img/hotel12.jpg" alt="boutique hotel room"/></li>
+                       <li class="slide"><img src="img/hotel14.jpg" alt="boutique hotel room"/></li>
+
+                     </ul>
+                   </div>
+                     <!-- <div class="slideshow">
                        <img src="img/hotel12.jpg" alt="boutique hotel room"/>
-                     </div>
+                     </div> -->
 
 
 

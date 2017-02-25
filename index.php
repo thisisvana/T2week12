@@ -5,13 +5,21 @@
               <div class="row-expand">
                   <div class="small-12 medium-12 large-3 columns">
                       <div class="sidebar-home">
-                        <h1>Home</h1>
+                        <div class="logos">
+                          <h1>Home</h1>
+                            <!-- <img src="img/tga-logo.svg" alt="boutique hotel logo"> -->
+                        </div>
+
                       </div>
 
                   </div>
                   <div class="small-12 medium-12 large-9 columns">
-                      <div class="slideshow">
-                        <img src="img/hotel9.jpg" alt="boutique hotel room"/>
+                      <div class="sample-movie">
+                        <video autoplay="autoplay" loop="loop" class="fillWidth">
+                          <source src="img/Island - 1195.mp4" type="video/mp4" />
+                          <!-- <source src="PATH_TO_WEBM" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+                        </video>
+                        <!-- <img src="img/hotel9.jpg" alt="boutique hotel room"/> -->
                       </div>
 
                   </div>
@@ -69,18 +77,18 @@
 
             <!-- Featured -->
             <div class="featured">
-                <div class="row">
-                    <div class="small-12 medium-7 large-8 columns">
+                <div class="row-expand">
+                    <div class="feat small-12 medium-12 large-12 columns">
                         <div class="heading-para">
-                            <h2>We love style</h2>
-                            <p>Step into the intimate lobby of <span>The Get Away</span>
+                            <h2 class="bg-heading">AWAKEN YOUR SENSES</h2>
+                            <!-- <p>Step into the intimate lobby of <span>The Get Away</span>
                               and discover the glamarous decor of this contemporary
                               four-star hotel nestled near the city center of Barcelona.
                             The bold and vivid colours make for a unique atmosphere,
                             perfect for a hideaway in the historic Catalan Quarter.</p>
                             <a href="rooms.php">
                                 <div class="btn">View Rooms</div>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
 
@@ -98,11 +106,14 @@
                             <div class="featured-text">
 
                                     <h2>Check out our rooms</h2>
-                                    <p>This is awesome</p>
+                                    <h5>This is awesome</h5>
 
-                                <p>Step into the intimate lobby of <span>The Get Away</span>
-                              and discover the glamarous decor of this contemporary
-                              four-star hotel nestled near the city center of Barcelona.</p>
+                                    <p>Step into the intimate lobby of <span>The Get Away</span>
+                                  and discover the glamarous decor of this contemporary
+                                  four-star hotel nestled near the city center of Barcelona.
+                                Best hotel in the world with style and taste. Sophistication and simplicity is who we are.
+                              Come and enjoy the beauty and the relaxing ambience of this beautiful hotel.
+                            check out our rooms and choose the one that best suits you and your loved one.</p>
                             </div>
                             <div class="arrows">
                                 <a href="rooms.php">
@@ -118,11 +129,14 @@
                             <div class="featured-text">
 
                                 <h2>Check our special offers</h2>
-                                <p>This is awsome</p>
+                                <h5>This is awsome</h5>
 
                                 <p>Step into the intimate lobby of <span>The Get Away</span>
                               and discover the glamarous decor of this contemporary
-                              four-star hotel nestled near the city center of Barcelona.</p>
+                              four-star hotel nestled near the city center of Barcelona.
+                            Best hotel in the world with style and taste. Sophistication and simplicity is who we are.
+                          Come and enjoy the beauty and the relaxing ambience of this beautiful hotel.
+                        check out our rooms and choose the one that best suits you and your loved one.</p>
                             </div>
                             <div class="arrows">
                                 <a href="packages.php">
@@ -140,11 +154,14 @@
                             <div class="featured-text">
 
                                     <h2>Room service vailable</h2>
-                                    <p>It is awesome</p>
+                                    <h5>It is awesome</h5>
 
                                 <p>Step into the intimate lobby of <span>The Get Away</span>
                               and discover the glamarous decor of this contemporary
-                              four-star hotel nestled near the city center of Barcelona.</p>
+                              four-star hotel nestled near the city center of Barcelona.
+                            Best hotel in the world with style and taste. Sophistication and simplicity is who we are.
+                          Come and enjoy the beauty and the relaxing ambience of this beautiful hotel.
+                        check out our rooms and choose the one that best suits you and your loved one.</p>
                             </div>
                             <div class="arrows">
                                 <a href="#">
@@ -160,25 +177,31 @@
                 </div>
             </div>
 
-            <!-- Main -->
-            <div class="main-wrapper">
+            <div class="featured-items">
+                <div class="row-expand">
+                    <section class="small-12 large-8 columns">
+                      <div class="certified-item">
+
+
+                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/excellence1.png" alt="boutique hotel room" /></div>
+                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/satisfaction.png" alt="boutique hotel room" /></div>
+                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/well.png" alt="boutique hotel room" /></div>
+                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/trip-advisor.png" alt="boutique hotel" /></div>
+
+
+                      </div>
+
+                    </section>
+                </div>
+            </div>
+
+
+
+            <div class="">
                 <div class="row">
 
-                    <!-- Sidebar -->
-                    <div class="small-12 large-8 columns">
-                        <section class="">
-                            <h2>Cool things to do</h2>
-                            <div class="main-mosaic">
-                                <div class="row">
-                                    <div class="small-6 column sidebar-img"><a href="#" class="fit"><img src="img/food1.jpg" alt="boutique hotel room" /></a></div>
-                                    <div class="small-6 column sidebar-img"><a href="#" class="fit"><img src="img/jacuzi.jpg" alt="boutique hotel room" /></a></div>
-                                    <div class="small-6 column sidebar-img"><a href="#" class="fit"><img src="img/barca.jpg" alt="boutique hotel room" /></a></div>
-                                    <div class="small-6 column sidebar-img"><a href="#" class="fit"><img src="img/trip-advisor.jpg" alt="" /></a></div>
-                                </div>
-                            </div>
 
-                        </section>
-                    </div>
+
 
                 </div>
             </div>

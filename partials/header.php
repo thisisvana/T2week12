@@ -12,7 +12,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="https://use.fontawesome.com/1845926a10.js"></script>
     </head>
-    <body>
+
     <body class="bg">
         <header class="page-header">
 
