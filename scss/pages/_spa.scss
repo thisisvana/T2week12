@@ -1,15 +1,5 @@
 .sidebar-spa{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-image: url("../img/blue.jpg");
-  // background-color: rgba(80, 142, 241, 1.0);
-  margin-bottom: 2rem;
 
-  @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
-      height: 20vh;
-  }
-  @media screen and (max-width: $mobile-max) {
-      height: 15vh;
-  }
+  background-image: url("../img/blue.jpg");
+
 }

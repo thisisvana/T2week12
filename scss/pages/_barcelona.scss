@@ -1,16 +1,5 @@
 .sidebar-barca {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-image: url("../img/lemon.jpg");
-  // background-color: rgba(253, 209, 70, 1.0);
-  margin-bottom: 2rem;
 
-  @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
-      height: 20vh;
-  }
-  @media screen and (max-width: $mobile-max) {
-      height: 15vh;
-  }
+  background-image: url("../img/lemon.jpg");
 
 }

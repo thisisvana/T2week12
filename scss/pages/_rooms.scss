@@ -1,16 +1,23 @@
 
 .sidebar-rooms {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-image: url("../img/yellow.jpg");
-  // background-color: rgba(242, 154, 41, 1.0);
-  margin-bottom: 2rem;
 
-  @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
-      height: 20vh;
-  }
-  @media screen and (max-width: $mobile-max) {
-      height: 15vh;
+  background-image: url("../img/lemon.jpg");
+}
+
+.banner {
+  overflow: hidden;
+  width:100%;
+  // margin-left: -2rem;
+  img{
+    height: 60vh;
+    width:100%;
   }
 }
+
+.room {
+
+  margin: 2rem auto;
+}
+ .room-img {
+   border: 0.1rem solid $mid-grey;
+ }

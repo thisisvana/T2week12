@@ -4,8 +4,11 @@
            <div class="sidebar">
              <div class="row-expand">
                  <div class="small-12 medium-12 large-2 columns">
-                     <div class="sidebar-spa">
-                       <h1>Wellness</h1>
+                     <div class="sidebar-spa side-pattern">
+                       <div class="title">
+                         <h1>Wellness</h1>
+
+                       </div>
                      </div>
                      <div class="featured-item">
                        <div class="heading-para">
@@ -22,7 +25,7 @@
 
                  </div>
                  <div class="small-12 medium-12 large-10 columns">
-                     <div class="slideshow">
+                     <div class="banner">
                        <img src="img/relax.jpg" alt="boutique hotel room"/>
                      </div>
                      <div class="heading-para">

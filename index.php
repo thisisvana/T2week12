@@ -1,11 +1,11 @@
- <?php include "partials/header.php"; ?>
+<?php include "partials/header.php"; ?>
 
             <!-- Slide Show -->
             <div class="sidebar">
               <div class="row-expand">
-                  <div class="small-12 medium-12 large-3 columns">
-                      <div class="sidebar-home">
-                        <div class="logos">
+                  <div class="small-12 medium-12 large-2 columns">
+                      <div class="sidebar-home side-pattern">
+                        <div class="title">
                           <h1>Home</h1>
                             <!-- <img src="img/tga-logo.svg" alt="boutique hotel logo"> -->
                         </div>
@@ -13,7 +13,7 @@
                       </div>
 
                   </div>
-                  <div class="small-12 medium-12 large-9 columns">
+                  <div class="small-12 medium-12 large-10 columns">
                       <div class="sample-movie">
                         <video autoplay="autoplay" loop="loop" class="fillWidth">
                           <source src="img/Island - 1195.mp4" type="video/mp4" />
@@ -25,55 +25,6 @@
                   </div>
               </div>
             </div>
-            <!-- <div class="slide-wrapper row show-for-medium">
-                <div class="slide-container">
-                    <div class="slide-box fade">
-                        <img src="https://media.freestocktextures.com/cache/3f/14/3f140da999b495a716aa1f6960c98122.jpg" class="slide-img">
-                        <div class="slide-text">
-                            <h3>Lorem Ipsum One</h3>
-                            <p> This is just a little descvription of the call to action I just mentioned above.</p>
-                            <a class="slider-btn" href="#">I want that</a>
-                        </div>
-                    </div>
-                    <div class="slide-box fade">
-                        <img src="https://media.freestocktextures.com/cache/b5/e1/b5e1ffc4daa5c93c30c4ba3a9ab4ea09.jpg" class="slide-img">
-                        <div class="slide-text">
-                            <h3>Lorem Ipsum Two</h3>
-                            <p> This is just a little descvription of the call to action I just mentioned above.</p>
-                            <a class="slider-btn" href="#">I want that</a>
-                        </div>
-                    </div>
-                    <div class="slide-box fade">
-                        <img src="https://media.freestocktextures.com/cache/b7/39/b739e481bb48b47688d8684bd42be0f8.jpg" class="slide-img">
-                        <div class="slide-text">
-                            <h3>Lorem Ipsum Three</h3>
-                            <p> This is just a little descvription of the call to action I just mentioned above.</p>
-                            <a class="slider-btn" href="#">I want that</a>
-                        </div>
-                    </div>
-                    <div class="slide-box fade">
-                        <img src="https://media.freestocktextures.com/cache/cf/3b/cf3beaeff72efb7d9cc9eafbc0c94826.jpg" class="slide-img">
-                        <div class="slide-text">
-                            <h3>Lorem Ipsum Four</h3>
-                            <p> This is just a little descvription of the call to action I just mentioned above.</p>
-                            <a class="slider-btn" href="#">I want that</a>
-                        </div>
-                    </div>
-                </div>
-
-                <a class="prev" onclick="moveSlide(-1)">P</a>
-                <a class="next" onclick="moveSlide(1)">N</a>
-
-                <div class="dots-container">
-                    <span class="dot" onclick=""></span>
-                    <span class="dot" onclick=""></span>
-                    <span class="dot" onclick=""></span>
-                    <span class="dot" onclick=""></span>
-                </div>
-
-
-            </div> -->
-
 
             <!-- Featured -->
             <div class="featured">
