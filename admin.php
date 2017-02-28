@@ -1,41 +1,63 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Vanarts</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
-        <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Arapey|Oranienbaum" rel="stylesheet">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="https://use.fontawesome.com/1845926a10.js"></script>
-    </head>
-    <body>
-    <body class="bg">
-        <header class="page-header">
+<?php require_once("includes/db_connection.php"); ?>
+<?php require_once("includes/functions.php"); ?>
+<?php require_once("includes/layouts/header.php"); ?>
 
-            <div class="row-expand">
-                  <!-- Logo -->
-                <div class="small-6 medium-2 large-2 columns">
-                    <div class="logo">
-                        <img src="img/tga-logo.svg" alt="boutique hotel logo">
-                    </div>
-                </div>
+<?php
+  //sending query
+  $query = "SELECT * ";
+  $query .= "FROM subjects ";
+  $query .= "WHERE visible = 1 ";
+  $query .= "ORDER BY position ASC";
 
-                <!-- Nav -->
-                <nav class="navbar small-6 medium-10 large-10 columns">
-                    <div class="row-expand">
-                      <ul class="main-menu show-for-large">
-                          <li><a href="index.php">Home</a></li>
-                          <li><a href="rooms.php">Rooms</a></li>
-                          <li><a href="gallery.php">Gallery</a></li>
+  $result = mysqli_query($connection, $query);
+  //Test if there was query error
+  if(!$result){
+    die("Database query failed.");
+  }
+?>
 
-                      </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-    </body>
+
+    <!-- Nav -->
+      <div class="row">
+          <div class="small-12 medium-6 large-5 columns">
+            <h3>Welcome to the admin area</h3>
+          </div>
+      </div>
+      <div class="row">
+          <nav class="admin-nav small-12 medium-6 large-5 columns">
+
+            <ul class="admin-menu">
+                <li><a href="manage_content.php"><h3>Manage Website</h3></a></li>
+                <li><a href="manage_admins.php"><h3>Manage Admins</h3></a></li>
+                <li><a href="logout.php"><h3>Logout</h3></a></li>
+
+            </ul>
+          </nav>
+    </div>
+    <main>
+      <div class="row">
+        <div class="small-12 medium-6 large-5 columns">
+          <h3></h3>
+        </div>
+      </div>
+
+    <ul>
+    <?php
+    //use returned data
+      while($subject = mysqli_fetch_assoc($result)){
+    //output data from each row
+    ?>
+      <li><?php echo $subject["menu_name"] . " (" . $subject["id"] . ")"; ?></li>
+
+    <?php
+    }
+    ?>
+    </ul>
+    <?php
+    //release returned data (to free space in memory once i have used the data)
+    mysqli_free_result($result);
+    ?>
+   </main>
+    <?php require_once("includes/layouts/footer.php"); ?>
+  </body>
 </htmml>
