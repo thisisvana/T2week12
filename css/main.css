@@ -483,7 +483,7 @@ h1 {
   margin: auto;
   font-weight: 500;
   font-family: "Arapey", serif;
-  color: #999999;
+  color: #ededed;
   font-size: 2rem; }
 
 h2 {
@@ -2527,9 +2527,12 @@ body {
 .page-header {
   height: 9rem;
   background-image: url("../img/texture-blue.jpg"); }
+  @media screen and (max-width: 39.9375rem) {
+    .page-header {
+      height: 7rem; } }
 
 .logo img {
-  width: 8rem;
+  width: 12rem;
   margin-left: 33.33%;
   padding: 1rem; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
@@ -2582,7 +2585,6 @@ body {
   height: 1px;
   border: 0; }
 
-/* Page wrapper */
 .demo {
   margin: 4rem auto;
   text-align: center; }
@@ -2804,8 +2806,7 @@ body {
   align-items: center;
   margin: auto;
   width: 8rem;
-  height: 70vh;
-  background-color: rgba(44, 49, 58, 0.5);
+  height: 69.6vh;
   padding: 0; }
 
 .sidebar {
@@ -2855,6 +2856,38 @@ body {
   width: 10rem;
   margin: auto; }
 
+.admin-form {
+  width: 100%;
+  margin: 7rem auto;
+  padding: 2rem;
+  border: 0.1rem solid #bc7a58;
+  background-color: #ededed; }
+
+.t-area {
+  width: 100%;
+  height: 10rem; }
+
+.pack-form {
+  padding: 4rem; }
+  .pack-form th {
+    background-color: #bc7a58;
+    color: #ededed; }
+  .pack-form td {
+    padding: 2rem; }
+
+.admin-nav {
+  background-color: #ededed; }
+
+.admin-menu {
+  list-style: none;
+  padding: 2rem; }
+  .admin-menu a:hover {
+    color: #999999; }
+
+.inp {
+  height: 2.5rem;
+  margin-bottom: 2rem; }
+
 .sidebar-rooms {
   background-image: url("../img/lemon.jpg"); }
 
@@ -2871,10 +2904,19 @@ body {
 .room-img {
   border: 0.1rem solid #999999; }
 
+.featured-rooms {
+  padding-top: 4rem; }
+
+.room-list {
+  list-style: none;
+  background-color: #ededed;
+  padding: 1rem;
+  font-size: 1rem; }
+
 .sidebar-gallery {
   background-image: url("../img/light-blue.jpg"); }
 
-.gallery-item {
+.img-container {
   margin-top: 2rem; }
 
 .slider {
@@ -2903,15 +2945,34 @@ body {
   right: 2%;
   color: #bc7a58; }
 
+.showImg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  transition: all 0.8s ease; }
+
 .sidebar-packages {
   background-image: url("../img/light-blue.jpg"); }
 
 .packages-item {
   margin-top: 2rem;
-  border: 0.1rem solid #ededed; }
+  border: 0.1rem solid #ededed;
+  padding: 2rem; }
 
 .package-div {
   background-color: #2c313a; }
+
+.packages {
+  padding: 2rem; }
 
 .sidebar-restaurant {
   background-image: url("../img/green.jpg"); }
@@ -2933,8 +2994,7 @@ body {
 
 .contact-form {
   width: 60%;
-  margin: 2rem auto 0;
-  height: 100vh; }
+  margin: 2rem auto 0; }
 
 .controls {
   text-align: left;

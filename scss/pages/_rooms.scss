@@ -21,3 +21,14 @@
  .room-img {
    border: 0.1rem solid $mid-grey;
  }
+
+.featured-rooms {
+  padding-top: 4rem;
+}
+
+.room-list {
+  list-style: none;
+  background-color: $light-grey;
+  padding: 1rem;
+  font-size: 1rem;
+}

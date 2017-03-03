@@ -1,23 +1,22 @@
 <?php include "partials/header.php"; ?>
 
-            <!-- Slide Show -->
+          <!--sidebar-->
             <div class="sidebar">
               <div class="row-expand">
                   <div class="small-12 medium-12 large-2 columns">
                       <div class="sidebar-home side-pattern">
                         <div class="title">
                           <h1>Home</h1>
-                            <!-- <img src="img/tga-logo.svg" alt="boutique hotel logo"> -->
+
                         </div>
 
                       </div>
 
                   </div>
                   <div class="small-12 medium-12 large-10 columns">
-                      <div class="sample-movie">
+                      <div class="sample-movie hide-for-small-only">
                         <video autoplay="autoplay" loop="loop" class="fillWidth">
                           <source src="img/Island - 1195.mp4" type="video/mp4" />
-                          <!-- <source src="PATH_TO_WEBM" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
                         </video>
                         <!-- <img src="img/hotel9.jpg" alt="boutique hotel room"/> -->
                       </div>
@@ -29,17 +28,10 @@
             <!-- Featured -->
             <div class="featured">
                 <div class="row-expand">
-                    <div class="feat small-12 medium-12 large-12 columns">
+                    <div class="feat hide-for-small-only medium-12 large-12 columns">
                         <div class="heading-para">
                             <h2 class="bg-heading">AWAKEN YOUR SENSES</h2>
-                            <!-- <p>Step into the intimate lobby of <span>The Get Away</span>
-                              and discover the glamarous decor of this contemporary
-                              four-star hotel nestled near the city center of Barcelona.
-                            The bold and vivid colours make for a unique atmosphere,
-                            perfect for a hideaway in the historic Catalan Quarter.</p>
-                            <a href="rooms.php">
-                                <div class="btn">View Rooms</div>
-                            </a> -->
+
                         </div>
                     </div>
 
@@ -53,7 +45,7 @@
                     <section class="small-12 medium-6 large-4 columns">
                         <div class="featured-item">
 
-                            <a href="rooms.php" class="featured-img"><img src="img/hotel10.jpg" alt="boutique hotel room" /></a>
+                            <a href="rooms.php" class="featured-img"><img src="img/hoteln.jpg" alt="boutique hotel room" /></a>
                             <div class="featured-text">
 
                                     <h2>Check out our rooms</h2>
@@ -100,7 +92,7 @@
                     <section class="small-12 large-4 columns show-for-large">
                         <div class="featured-item">
 
-                            <!-- Box -->
+
                             <img src="img/coctail-room.jpg" alt="boutique hotel room" />
                             <div class="featured-text">
 
@@ -115,30 +107,24 @@
                         check out our rooms and choose the one that best suits you and your loved one.</p>
                             </div>
                             <div class="arrows">
-                                <a href="#">
+                                <a href="#"></a>
 
-                                    <!-- <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-arrow-right fa-stack-1x fa-inverse"></i> -->
-                                    <!-- <i class="fa fa-chevron-circle-right fa-4x" aria-hidden="true"></i> -->
-
-                                  </a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
+            <!--recognition stamps-->
             <div class="featured-items">
                 <div class="row-expand">
                     <section class="small-12 large-8 columns">
                       <div class="certified-item">
 
-
-                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/excellence1.png" alt="boutique hotel room" /></div>
-                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/satisfaction.png" alt="boutique hotel room" /></div>
-                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/well.png" alt="boutique hotel room" /></div>
-                              <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/trip-advisor.png" alt="boutique hotel" /></div>
-
+                        <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/excellence1.png" alt="boutique hotel room" /></div>
+                        <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/satisfaction.png" alt="boutique hotel room" /></div>
+                        <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/well.png" alt="boutique hotel room" /></div>
+                        <div class="small-6 medium-6 large-3 columns sidebar-img"><img src="img/trip-advisor.png" alt="boutique hotel" /></div>
 
                       </div>
 
@@ -146,13 +132,8 @@
                 </div>
             </div>
 
-
-
             <div class="">
                 <div class="row">
-
-
-
 
                 </div>
             </div>

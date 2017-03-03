@@ -6,7 +6,7 @@
                   <div class="footer-box small-12 medium-12 large-12 columns">
                      <form action="" method="POST" class="footer-form">
                         <i class="fa fa-envelope-o footer-icon" aria-hidden="true"></i>
-                        <p>Subscribe to our newsletter to receive special offers</p>
+                        <p>Subscribe and be one of the first to receive special offers</p>
                         <div class="footer-form-box">
                              <input type="email" name="footer-email" id="footer-email" placeholder="example@example.com">
                              <button type="submit" name="f_submit" value="Send">Send</button>

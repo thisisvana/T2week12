@@ -9,13 +9,18 @@
   background-image: url('../img/texture-blue.jpg');
   // background-color: rgba(40, 44, 52, 1.0);
   // margin-bottom: 2rem;
+  @media screen and (max-width: $mobile-max) {
+          height: 7rem;
+
+  }
 
 }
+
 .logo {
 
   img{
 
-    width: 8rem;
+    width: 12rem;
     margin-left: 33.33%;
     padding: 1rem;
 
@@ -75,12 +80,7 @@
 
 
 }
-//
-// .book-btn {
-//   float: right;
-//   margin: 1rem 0 0 1rem;
-//
-// }
+
 
 .vh {
   position: absolute;
@@ -93,7 +93,7 @@
   border: 0;
 }
 
-/* Page wrapper */
+
 .demo {
   // width: 94%;
   // max-width: 640px;
@@ -248,98 +248,3 @@
     margin-left: -300px;
   }
 }
-//
-//
-//
-// // .logo {
-// //     img {
-// //       width: 6rem;
-// //     }
-// //     // }
-// //     // @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
-// //     //     display: block;
-// //     //     text-align: center;
-// //     //     padding: 2rem 0;
-// //     // }
-// //     //
-// //     // @media screen and (min-width: $tablet-min) {
-// //     //     background-color: transparent;
-// //     //
-// //     // }
-// //     //
-// //     // @media screen and (min-width: $desktop-min) {
-// //     //     float: left;
-// //     //     padding: 0;
-// //     // }
-// // }
-//
-// .icon-resp {
-//     position: absolute;
-//     top: 0; right: 0;
-//     color:  $light-grey;
-//     display: inline-block;
-//     background-color: $dark-grey;
-//     padding: 0.68rem 1rem;
-//     &:hover {
-//         background-color: $mid-grey;
-//         color: $dark-grey
-//     }
-// }
-//
-
-//
-// .header-nav-menu {
-//     margin: 0; padding: 0;
-//     list-style-type: none;
-//     display: none;
-//     a {
-//         display: block;
-//         padding: 0.7rem;
-//         background-color: $dark-grey;
-//         &:hover {
-//             background-color: $light-grey;
-//         }
-//     }
-//     @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
-//         display: block;
-//         padding: 1rem 0 0.5rem;
-//         width: 100%;
-//         li {
-//             float: left;
-//             width: 25%;
-//         }
-//     }
-//
-//     @media screen and (min-width: $tablet-min) {
-//         li {
-//             text-align: center;
-//             float: left;
-//         }
-//         a {
-//             display: inline-block;
-//             text-align: center;
-//             background-color: transparent;
-//             padding: 0 0 0.7rem 0;
-//             border-bottom: 4px solid transparent;
-//             text-transform: uppercase;
-//             &:hover {
-//                 background-color: transparent;
-//                 font-weight: bolder;
-//                 text-decoration: none;
-//                 border-bottom: 4px solid $dark-grey;
-//             }
-//         }
-//     }
-//
-//     @media screen and (min-width: $desktop-min) {
-//         position: absolute;
-//         right: 0;
-//         top: 7rem;
-//         display: block;
-//         float: right;
-//         li {
-//             margin-left: 3rem;
-//             width: 7rem;
-//         }
-//     }
-// }

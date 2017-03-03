@@ -1,5 +1,5 @@
 
-(function () {
+(function() {
     var myButton = document.querySelector('.mobile-menu');
     var myNav = document.querySelector('.main-menu');
 
@@ -7,7 +7,7 @@
         myNav.classList.toggle('display');
     };
 
-    myButton.addEventListener("click", function (event) {
+    myButton.addEventListener("click", function(event) {
         event.preventDefault();//prevents default click behaviour
         toggle();
     });
@@ -15,7 +15,7 @@
 
 // Main image carousel
 $(document).ready(function(){
-	$("#headerMrS > div:gt(0)").hide();
+	$(".slider > div:gt(0)").hide();
 
 		 var carouselInt = '';
 
@@ -27,7 +27,7 @@ $(document).ready(function(){
 	        .fadeIn(500)
 	        .end()
 	        .appendTo('.slider');
-	    },  3000);
+	    },3000);
 	};
 
 	$(carouDiv());//Initialise the carousel function
@@ -85,7 +85,7 @@ var html = $('html'),
 
 // Modal Show
 modalShow.on('click', function(e) {
-  e.preventDefault();
+  // e.preventDefault();
   html.addClass('no-scroll');
   modal.addClass('is-visible');
   demo.attr('aria-hidden', 'true');
@@ -98,7 +98,7 @@ modalShow.on('click', function(e) {
 
 // Modal Hide
 modalHide.on('click', function(e) {
-  e.preventDefault();
+  // e.preventDefault();
   html.removeClass('no-scroll');
   modal.removeClass('is-visible');
   demo.attr('aria-hidden', 'false');
@@ -107,6 +107,14 @@ modalHide.on('click', function(e) {
 });
 
 // Prevent toggle event from bubbling
-modalWrapper.on('click', function(e) {
-  e.stopPropagation();
+// modalWrapper.on('click', function(e) {
+//   e.stopPropagation();
+// });
+
+
+$('.img-container').click(function(){
+  $(this).addClass('showImg');
+  $(this).click(function(){
+    $(this).removeClass('showImg');
+  })
 });

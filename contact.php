@@ -1,6 +1,6 @@
 <?php include "partials/header.php"; ?>
 
-
+<!--sidebar-->
 <div class="small-12 medium-12 large-12 columns">
   <div class="sidebar">
     <div class="row-expand">
@@ -13,20 +13,19 @@
           </div>
           <div class="heading-para">
               <h2>Directions</h2>
-              <!-- <p>Take the first one left, walk for 5 blocks,at the traffic light turn right. Walk 100 miles, turn back, walk another 1000 miles,
-                jump off a couple bridges, swim a 3 rivers, and good luck finding us.
-             </p> -->
+              <p>Take the first one left, walk for 5 blocks,at the traffic light turn right.</p>
           </div>
           <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5205.41030890326!2d-123.11363440620966!3d49.281983896817735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8d10bdb2ca1c083!2sVancouver+Institute+of+Media+Arts+(VanArts)!5e0!3m2!1sen!2sca!4v1477437491122" allowfullscreen></iframe>
           </div>
       </div>
-      <div class="contact-page small-12 medium-12 large-10 columns">
-
-        <form class="contact-form" action="post">
+      <div class="page-wrapper">
+      <div class="small-12 medium-12 large-10 columns">
+        <!--contact form-->
+        <form class="contact-form" action="" method="post">
           <!--  General -->
           <div class="form-group">
-            <h2 class="heading">Booking & contact</h2>
+            <h2 class="heading">Booking & Contact</h2>
             <div class="controls">
               <input type="text" id="name" class="floatLabel" name="name">
               <label for="name">Name</label>
@@ -81,11 +80,12 @@
 
       </div>
     </div>
+   </div>
 
   </div>
 </div>
 
-<div class="main-wrapper">
+<div class="">
     <div class="row">
 
 

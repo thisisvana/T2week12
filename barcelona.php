@@ -14,7 +14,7 @@
       </div>
 
       <div class="small-12 medium-12 large-10 columns">
-          <div class="banner">
+          <div class="banner hide-for-small-only">
             <img src="img/barca.jpg" alt="boutique hotel room"/>
           </div>
           <div class="heading-para">
