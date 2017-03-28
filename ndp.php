@@ -1,10 +1,10 @@
 <?php include "partials/sidebar.php"; ?>
 <div class="page-banner small-12 medium-8 large-9 columns">
-     <div class="party-banner">
-       <img src="img/leaf.svg" alt="party logo" class="p-logo">
+     <div class="ndp-banner">
+       <img src="img/leaf.png" alt="party logo" class="p-logo">
        <h1>NDP</h1>
        <div class="party-leader">
-         <img src="img/mulcair.png" alt="party leader" class="leader"/>
+         <img src="img/mulcair-yellow.png" alt="party leader" class="leader"/>
        </div>
      </div>
      <div class="party-info">

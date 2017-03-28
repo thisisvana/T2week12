@@ -1,0 +1,16 @@
+.vote-banner {
+  background-color: $dark-grey;
+  opacity: 0.9;
+  height: 100vh;
+  display: flex;
+
+}
+
+.v-dash {
+  width:70%;
+  margin: auto;
+  padding: 3rem;
+  h1 {
+    font-size: 7rem;
+  }
+}

@@ -20,7 +20,7 @@
 
 // 4. Layout-related sections
 @import
-  'layout/header',
+  'layout/sidebar',
   'layout/footer';
 
 // 5. Components
@@ -30,6 +30,10 @@
 // 6. Page-specific styles
 @import
   'pages/home',
+  'pages/green',
+  'pages/liberal',
+  'pages/conservative',
+  'pages/vote',
   'pages/ndp';
 
 
