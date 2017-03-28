@@ -22,7 +22,7 @@ $text-color: rgb(163, 160, 157) !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: rgba(188, 122, 88, 1.0) !default;
+$brand-color: rgba(137, 31, 134, 1.0) !default;
 
 /// Light grey
 /// @type Color
@@ -36,9 +36,13 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
 
-$bg-color: #d1e0e0;
-$bg-color-sessions: #334d4d;
+$bg-color:  rgb(43, 43, 43) !default;
+$ndp: rgb(232, 149, 27) !default;
+$green: rgb(34, 167, 126) !default;
+$liberal: rgb(230, 38, 60) !default;
+$conservative: rgb(17, 115, 186) !default;
 
+$lw: rgb(221, 221, 221) !default;
 
 
 /// Container's maximum width

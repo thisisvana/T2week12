@@ -23,8 +23,9 @@ html {
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+  color: $lw;
   text-decoration: none;
+  display: block;
 
 }
 
@@ -96,10 +97,8 @@ h2{
   font-family: $h2;
 }
 p {
-  font-family: $philo;
-
-  font-size: 1.2rem;
-  font-weight: lighter;
+    font-size: 1rem;
+  
 }
 /* Grouping content
        ========================================================================== */
