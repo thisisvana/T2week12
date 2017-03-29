@@ -41,7 +41,7 @@
 
                        <!-- <label for="form-email">Email*</label><br> -->
                        <input type="text" class="c-placeholder" id="form-email" name="email" placeholder="example@example.com" required />
-                       <input id="send-btn" type="submit" name="f_submit" class="btn" value="Send">
+                       <input id="send-btn" type="submit" name="submit" class="btn" value="Send">
                     </form>
                     <div class="social-nav">
                       <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

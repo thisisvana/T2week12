@@ -2,7 +2,7 @@
 <div class="page-banner small-12 medium-8 large-9 columns">
      <div class="liberal-banner">
        <img src="img/liberal.png" alt="party logo" class="p-logo">
-       <h1>NDP</h1>
+       <h1>Liberal</h1>
        <div class="party-leader">
          <img src="img/trudi-red.png" alt="party leader" class="leader"/>
        </div>

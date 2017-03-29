@@ -2,7 +2,7 @@
 <div class="page-banner small-12 medium-8 large-9 columns">
      <div class="conservative-banner">
        <img src="img/conservative.png" alt="party logo" class="p-logo">
-       <h1>NDP</h1>
+       <h1>Conservative</h1>
        <div class="party-leader">
          <img src="img/harp-blue.png" alt="party leader" class="leader"/>
        </div>

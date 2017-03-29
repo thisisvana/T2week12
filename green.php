@@ -2,7 +2,7 @@
 <div class="page-banner small-12 medium-8 large-9 columns">
      <div class="green-banner">
        <img src="img/green.png" alt="party logo" class="p-logo">
-       <h1>NDP</h1>
+       <h1>Green</h1>
        <div class="party-leader">
          <img src="img/may-green.png" alt="party leader" class="leader"/>
        </div>
