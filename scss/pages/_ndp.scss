@@ -6,16 +6,23 @@
   // opacity: 0.9;
   .p-logo{
     width: 20%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .party-leader{
     width: 20%;
     opacity: 0.7;
     padding-right: 1rem;
+    @media screen and (max-width: $mobile-max){
+      width: 30%;
+
+    }
 
   }
   h1{
     font-size: 4rem;
+    @media screen and (max-width: $mobile-max){
+      font-size: 2rem;
+    }
   }
 
 }

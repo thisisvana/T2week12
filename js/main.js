@@ -1,3 +1,11 @@
+$(function() {
+
+  $('.mobile-menu').click(function(){
+
+    $('.main-menu').toggle(400);
+  });
+});
+
 // $("#hide").click(function(){
 //     $("p").hide();
 // });
@@ -62,65 +70,65 @@
 // });
 //
 //
-// (function($){
-// 	function floatLabel(inputType){
-// 		$(inputType).each(function(){
-// 			var $this = $(this);
-// 			// on focus add cladd active to label
-// 			$this.focus(function(){
-// 				$this.next().addClass("active");
-// 			});
-// 			//on blur check field and remove class if needed
-// 			$this.blur(function(){
-// 				if($this.val() === '' || $this.val() === 'blank'){
-// 					$this.next().removeClass();
-// 				}
-// 			});
-// 		});
-// 	}
-// 	// just add a class of "floatLabel to the input field!"
-// 	floatLabel(".floatLabel");
-// })(jQuery);
-//
-// var html = $('html'),
-//     demo = $('.demo'),
-// 		modal = $('.modal'),
-//     modalShow = $('.modal-show'),
-//     modalHide = $('.modal-hide'),
-//     modalWrapper = $('.modal-wrapper');
-//
-// // Modal Show
-// modalShow.on('click', function(e) {
-//   // e.preventDefault();
-//   html.addClass('no-scroll');
-//   modal.addClass('is-visible');
-//   demo.attr('aria-hidden', 'true');
-//   modal.attr({
-//     'aria-hidden': 'false',
-//     'open': 'true',
-//     'tabindex': '0'
-//   });
-// });
-//
-// // Modal Hide
-// modalHide.on('click', function(e) {
-//   // e.preventDefault();
-//   html.removeClass('no-scroll');
-//   modal.removeClass('is-visible');
-//   demo.attr('aria-hidden', 'false');
-//   modal.attr('aria-hidden', 'true');
-//   modal.removeAttr('open tabindex');
-// });
-//
-// // Prevent toggle event from bubbling
-// // modalWrapper.on('click', function(e) {
-// //   e.stopPropagation();
-// // });
-//
-//
-// $('.img-container').click(function(){
-//   $(this).addClass('showImg');
-//   $(this).click(function(){
-//     $(this).removeClass('showImg');
-//   })
-// });
+(function($){
+	function floatLabel(inputType){
+		$(inputType).each(function(){
+			var $this = $(this);
+			// on focus add cladd active to label
+			$this.focus(function(){
+				$this.next().addClass("active");
+			});
+			//on blur check field and remove class if needed
+			$this.blur(function(){
+				if($this.val() === '' || $this.val() === 'blank'){
+					$this.next().removeClass();
+				}
+			});
+		});
+	}
+	// just add a class of "floatLabel to the input field!"
+	floatLabel(".floatLabel");
+})(jQuery);
+
+var html = $('html'),
+    demo = $('.demo'),
+		modal = $('.modal'),
+    modalShow = $('.modal-show'),
+    modalHide = $('.modal-hide'),
+    modalWrapper = $('.modal-wrapper');
+
+// Modal Show
+modalShow.on('click', function(e) {
+  // e.preventDefault();
+  html.addClass('no-scroll');
+  modal.addClass('is-visible');
+  demo.attr('aria-hidden', 'true');
+  modal.attr({
+    'aria-hidden': 'false',
+    'open': 'true',
+    'tabindex': '0'
+  });
+});
+
+// Modal Hide
+modalHide.on('click', function(e) {
+  // e.preventDefault();
+  html.removeClass('no-scroll');
+  modal.removeClass('is-visible');
+  demo.attr('aria-hidden', 'false');
+  modal.attr('aria-hidden', 'true');
+  modal.removeAttr('open tabindex');
+});
+
+//Prevent toggle event from bubbling
+modalWrapper.on('click', function(e) {
+  e.stopPropagation();
+});
+
+
+$('.img-container').click(function(){
+  $(this).addClass('showImg');
+  $(this).click(function(){
+    $(this).removeClass('showImg');
+  })
+});

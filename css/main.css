@@ -2527,36 +2527,50 @@ body {
   height: 100vh; }
 
 .logo {
-  width: 12rem;
+  width: 11rem;
   padding-top: 1rem;
   margin: auto; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
     .logo {
       display: block;
-      width: 10rem; } }
+      width: 7rem; } }
   @media screen and (max-width: 39.9375rem) {
     .logo {
-      width: 7rem; } }
+      width: 6rem;
+      margin-top: 3rem; } }
 
 .side-b {
+  position: fixed;
   background-color: #2b2b2b;
-  height: 100%;
+  height: 100vh;
   padding: 0 2rem; }
+  @media screen and (max-width: 39.9375rem) {
+    .side-b {
+      position: relative;
+      height: 100%; } }
+  .side-b .mobile-menu {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem; }
 
 li {
   list-style: none; }
 
 .main-menu {
-  display: flex;
-  flex-direction: column;
-  padding: 0; }
+  display: block;
+  padding: 0;
+  margin: 2rem 0; }
+  @media screen and (max-width: 39.9375rem) {
+    .main-menu {
+      display: none;
+      margin-top: 2rem;
+      background-color: #2b2b2b; } }
   .main-menu li {
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    margin: auto;
-    height: 4rem;
-    padding-top: 1rem; }
+    margin: auto; }
     .main-menu li:first-child {
       border: 0.2rem solid #e8951b; }
       .main-menu li:first-child:hover {
@@ -2585,14 +2599,25 @@ li {
         background-color: transparent; }
     @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
       .main-menu li {
-        width: 100%; } }
+        width: 100%;
+        font-size: 0.9rem; } }
+    @media screen and (max-width: 39.9375rem) {
+      .main-menu li {
+        width: 100%;
+        font-size: 0.8rem; } }
+  .main-menu a {
+    padding: 1rem; }
+
+.sub-form {
+  padding: 0; }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0; }
+  padding: 0;
+  font-size: 0.8rem; }
   form input {
     background-color: transparent;
     border: 0.2rem solid #999999;
@@ -2615,6 +2640,131 @@ form {
     align-items: center;
     justify-content: center; }
 
+/**
+ * Modal
+ * 1. Ensure this sits above everything when visible
+ */
+@media screen and (max-width: 39.9375rem) {
+  .demo {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 40%; }
+    .demo .modal-show {
+      padding: 0.5rem;
+      font-size: 0.8rem; } }
+
+.modal {
+  position: fixed;
+  z-index: 1000;
+  /* 1 */
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%; }
+
+.modal.is-visible {
+  visibility: visible; }
+
+/* Prevent scrolling on <html> when `.modal` is visible */
+.no-scroll {
+  overflow: hidden; }
+
+/* Modal Overlay & Container */
+.modal-overlay,
+.modal-container {
+  position: fixed;
+  z-index: 90000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s ease 0.3s, opacity 0.3s ease; }
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.8); }
+
+.modal.is-visible .modal-overlay,
+.modal.is-visible .modal-container {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s; }
+
+/* 1. Allow scrolling on `.modal-container` in case `.modal-wrapper` is taller than the viewport */
+.modal.is-visible .modal-container {
+  overflow: auto;
+  /* 1 */
+  -webkit-overflow-scrolling: touch;
+  /* 1 */ }
+
+/* Modal Wrapper */
+.modal-wrapper {
+  position: absolute;
+  z-index: 10000;
+  top: 3em;
+  left: 50%;
+  width: 100%;
+  max-width: 600px;
+  margin-left: -50%;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.35); }
+
+/* Modal Transition */
+.modal-transition {
+  transition: visibility 0.3s 0.12s, opacity 0.3s 0.12s, transform 0.3s 0.12s;
+  transform: translateY(-10%);
+  opacity: 0; }
+
+.modal.is-visible .modal-transition {
+  transform: translateY(0);
+  opacity: 1; }
+
+.modal-header,
+.modal-content {
+  padding: 1em; }
+
+/* Modal Header */
+.modal-header {
+  position: relative;
+  background-color: #2b2b2b;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid #e8e8e8; }
+
+/* Modal Heading */
+.modal-heading {
+  font-size: 1.125em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* Modal Close Button */
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.125em;
+  color: #891f86;
+  background: #fff;
+  border: 0; }
+
+.modal-close:hover {
+  color: #891f86; }
+
+/* Modal Content */
+.modal-content > *:first-child {
+  margin-top: 0; }
+
+.modal-content > *:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 600px) {
+  /* Modal Wrapper */
+  .modal-wrapper {
+    top: 6em;
+    margin-left: -300px; } }
 .page-footer {
   background-image: url("../img/texture-blue.jpg");
   margin-top: 3rem; }
@@ -2711,6 +2861,18 @@ form {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
+    .banner {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh; } }
+  @media screen and (max-width: 39.9375rem) {
+    .banner {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh; } }
 
 .bars {
   display: flex;
@@ -2719,20 +2881,27 @@ form {
   height: 100vh; }
   .bars:first-child {
     background-color: #e8951b;
-    opacity: 0.9; }
+    opacity: 0.8; }
   .bars:nth-child(2) {
     background-color: #22a77e;
-    opacity: 0.9; }
+    opacity: 0.8; }
   .bars:nth-child(3) {
     background-color: #e6263c;
-    opacity: 0.9; }
+    opacity: 0.8; }
   .bars:nth-child(4) {
     background-color: #1173ba;
-    opacity: 0.9; }
+    opacity: 0.8; }
   @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
-    .bars h1 {
-      font-size: 1rem;
-      text-align: left; } }
+    .bars {
+      width: 100%;
+      height: 100vh; }
+      .bars h1 {
+        font-size: 2rem;
+        text-align: left; } }
+  @media screen and (max-width: 39.9375rem) {
+    .bars {
+      width: 100%;
+      height: 100vh; } }
 
 .green-banner {
   background-color: #22a77e;
@@ -2741,14 +2910,20 @@ form {
   justify-content: flex-end; }
   .green-banner .p-logo {
     width: 20%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     opacity: 0.5; }
   .green-banner .party-leader {
     width: 20%;
     opacity: 0.7;
     padding-right: 1rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .green-banner .party-leader {
+        width: 30%; } }
   .green-banner h1 {
     font-size: 4rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .green-banner h1 {
+        font-size: 2rem; } }
 
 .liberal-banner {
   background-color: #e6263c;
@@ -2757,15 +2932,24 @@ form {
   justify-content: flex-end; }
   .liberal-banner .p-logo {
     width: 20%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
     opacity: 0.9; }
+    @media screen and (max-width: 39.9375rem) {
+      .liberal-banner .p-logo {
+        width: 25%; } }
   .liberal-banner .party-leader {
     width: 20%;
     opacity: 0.8;
     padding-right: 1rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .liberal-banner .party-leader {
+        width: 30%; } }
   .liberal-banner h1 {
     font-size: 4rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .liberal-banner h1 {
+        font-size: 2rem; } }
 
 .conservative-banner {
   background-color: #1173ba;
@@ -2781,8 +2965,14 @@ form {
     width: 20%;
     opacity: 0.7;
     padding-right: 1rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .conservative-banner .party-leader {
+        width: 30%; } }
   .conservative-banner h1 {
     font-size: 4rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .conservative-banner h1 {
+        font-size: 2rem; } }
 
 .vote-banner {
   background-color: #444444;
@@ -2796,6 +2986,16 @@ form {
   padding: 3rem; }
   .v-dash h1 {
     font-size: 7rem; }
+    @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
+      .v-dash h1 {
+        font-size: 5rem;
+        line-height: 1;
+        padding: 2rem; } }
+    @media screen and (max-width: 39.9375rem) {
+      .v-dash h1 {
+        font-size: 3rem;
+        line-height: 1;
+        padding: 1rem; } }
 
 .ndp-banner {
   background-color: #e8951b;
@@ -2804,13 +3004,19 @@ form {
   justify-content: flex-end; }
   .ndp-banner .p-logo {
     width: 20%;
-    padding-bottom: 2rem; }
+    padding-bottom: 1rem; }
   .ndp-banner .party-leader {
     width: 20%;
     opacity: 0.7;
     padding-right: 1rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .ndp-banner .party-leader {
+        width: 30%; } }
   .ndp-banner h1 {
     font-size: 4rem; }
+    @media screen and (max-width: 39.9375rem) {
+      .ndp-banner h1 {
+        font-size: 2rem; } }
 
 .party-info {
   background-color: white;
