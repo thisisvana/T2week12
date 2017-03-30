@@ -31,7 +31,7 @@
                       <li><a href="green.php">green</a></li>
                       <li><a href="liberal.php">liberal</a></li>
                       <li><a href="conservative.php">conservative</a></li>
-                      <li><a href="mp.php">my mp</a></li>
+                      <li><a href="mymp.php">my mp</a></li>
                       <li><a href="vote.php">vote smart</a></li>
                     </ul>
                     <div class="sub-form hide-for-small-only columns">
