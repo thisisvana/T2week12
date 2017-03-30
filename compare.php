@@ -14,45 +14,27 @@
             <div class="small-12 medium-12 large-3 columns">
             <div class="top-two-btn">
                 <h3 class="two-btn btn">Result</h3>
-                <h3 class="two-btn btn">Reflesh</h3>
+                <h3 class="two-btn btn">Refresh</h3>
             </div>
         </div>
         <div class="small-12 medium-12 large-9 columns">
-                <div class="party-topic-list">
+            <h3>Parties policies</h3>
+            <div class="party-topic-list">
 
-                    <div class="small-12 medium-12 large-12 columns list-title">
-                        <h3>Parties policies</h3>
-                    </div>
+                <ul class="policies">
+                  <li class="btn"><a>Syrian Refugees</a></li>
+                  <li class="btn"><a>Marijuana</a></li>
+                  <li class="btn"><a>Education</a></li>
+                  <li class="btn"><a>Environment</a></li>
+                  <li class="btn"><a>Health Care</a></li>
+                  <li class="btn"><a>Youth Issues</a></li>
+                  <li class="btn"><a>Forign policy</a></li>
+                  <li class="btn"><a>Gender LGBTQA</a></li>
+                  <li class="btn"><a>Economy</a></li>
 
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Syrian Refugees
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Marijuana
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Education
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Environment
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Health Care
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Youth Issues
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Forign policy
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Gender LGBTQA
-                    </div>
-                    <div class="small-12 medium-6 large-4 columns btn list">
-                        Economy
-                    </div>
-                </div>
+                </ul>
             </div>
+        </div>
         <div class="small-12 medium-3 large-3 columns">
         </div>
         <!--</div>-->

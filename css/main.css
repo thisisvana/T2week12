@@ -3322,11 +3322,10 @@ form {
 .all-party-policy {
   background-color: #ededed; }
 
-.party-topic-list {
+.policies {
   display: flex; }
-  @media screen and (max-width: 39.9375rem) {
-    .party-topic-list {
-      flex-wrap: wrap; } }
+  .policies li {
+    flex-wrap: wrap; }
 
 @media screen and (max-width: 39.9375em) {
   .compare-header {
