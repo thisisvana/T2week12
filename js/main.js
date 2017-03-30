@@ -143,7 +143,7 @@ $('.img-container').click(function(){
  // if current province color is not red
  // province color is blue
          if ($(this).css("fill") != "rgb(255, 0, 0)") {
-             $(this).css("fill", "blue");
+             $(this).css("fill", "rgb(188, 30, 188)");
          }
      });
 
