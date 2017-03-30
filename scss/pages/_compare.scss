@@ -1,3 +1,101 @@
+@media screen and (max-width: 39.9375em) {
+    .compare-header {
+        height:100%;
+        overflow:auto;
+        padding-top:20px;
+
+        .compare-top-left {
+            width:100%;
+
+
+            .party-list {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                width:100%;
+                padding:0;
+
+                li {
+                    flex:1;
+                    color:$dark-grey;
+                    border:2px solid black;
+                    padding: 10px;
+                    text-align: center;
+                    font-size:0.8em;
+                }
+
+                li:nth-child(1){
+                    border-color: $ndp;
+                }
+                li:nth-child(2){
+                    border-color: $green;
+                }
+                li:nth-child(3){
+                    border-color: $liberal;
+                }
+                li:nth-child(4){
+                    border-color: $conservative;
+                }
+
+            }
+            .party-topic-list {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                height:100%;
+                width:100%;
+
+                th {
+                    padding-top:30px;
+                    padding-bottom:40px;
+                    font-size: 1.5em;
+                }
+
+
+                td {
+                    flex:1;
+                    color:$dark-grey;
+                    font-size: 1em;  
+                    border:1px$dark-grey solid;
+                    padding:5px;
+                    width:50%;
+                }
+            }
+
+        } 
+        .top-two-btn {
+            display: flex;
+            h3 {
+                flex: 1;
+                font-size:1em;
+                //display: inline-block;
+                margin:50px auto 50px auto;
+                padding:10px;
+                text-align: center;
+                border:2px solid;
+            }
+        }
+    }
+    .all-party-policy {
+        overflow: auto;
+        padding-top:50px;
+        h3 {
+            font-size: 1em;
+            padding-left:20px;
+        }
+
+        p {
+            font-size: 0.7em;
+            padding:10px;
+        }
+
+    }
+    .voteBtn {
+        margin:10px 0 30px 0;
+        float:right;
+    }
+    
+}
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     /* styles for medium only */
     .compare-header {
@@ -96,8 +194,8 @@
     /* styles for large and onward only */
     .compare-header {
         height:100%;
-        overflow:auto;
-        padding-top:20px;
+        //overflow:auto;
+        padding-top:30px;
 
         .compare-top-left {
             width:100vh;
@@ -151,7 +249,7 @@
                     color:$dark-grey;
                     font-size: 0.8em;  
                     border:1px$dark-grey solid;
-                    padding:10px;
+                    //padding:10px;
                 }
             }
 
@@ -178,6 +276,12 @@
         p {
             font-size: 0.7em;
             padding:10px;
+        }
+        
+        .voteBtn {
+            text-align: center;
+            border:1px solid black;
+            padding:10px; 
         }
 
     }

@@ -2823,6 +2823,74 @@ form {
   height: 15rem;
   overflow: auto; }
 
+@media screen and (max-width: 39.9375em) {
+  .compare-header {
+    height: 100%;
+    overflow: auto;
+    padding-top: 20px; }
+    .compare-header .compare-top-left {
+      width: 100%; }
+      .compare-header .compare-top-left .party-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0; }
+        .compare-header .compare-top-left .party-list li {
+          flex: 1;
+          color: #444444;
+          border: 2px solid black;
+          padding: 10px;
+          text-align: center;
+          font-size: 0.8em; }
+        .compare-header .compare-top-left .party-list li:nth-child(1) {
+          border-color: #e8951b; }
+        .compare-header .compare-top-left .party-list li:nth-child(2) {
+          border-color: #22a77e; }
+        .compare-header .compare-top-left .party-list li:nth-child(3) {
+          border-color: #e6263c; }
+        .compare-header .compare-top-left .party-list li:nth-child(4) {
+          border-color: #1173ba; }
+      .compare-header .compare-top-left .party-topic-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%; }
+        .compare-header .compare-top-left .party-topic-list th {
+          padding-top: 30px;
+          padding-bottom: 40px;
+          font-size: 1.5em; }
+        .compare-header .compare-top-left .party-topic-list td {
+          flex: 1;
+          color: #444444;
+          font-size: 1em;
+          border: 1px #444444 solid;
+          padding: 5px;
+          width: 50%; }
+    .compare-header .top-two-btn {
+      display: flex; }
+      .compare-header .top-two-btn h3 {
+        flex: 1;
+        font-size: 1em;
+        margin: 50px auto 50px auto;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid; }
+
+  .all-party-policy {
+    overflow: auto;
+    padding-top: 50px; }
+    .all-party-policy h3 {
+      font-size: 1em;
+      padding-left: 20px; }
+    .all-party-policy p {
+      font-size: 0.7em;
+      padding: 10px; }
+
+  .voteBtn {
+    margin: 10px 0 30px 0;
+    float: right; } }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   /* styles for medium only */
   .compare-header {
@@ -2889,8 +2957,7 @@ form {
   /* styles for large and onward only */
   .compare-header {
     height: 100%;
-    overflow: auto;
-    padding-top: 20px; }
+    padding-top: 30px; }
     .compare-header .compare-top-left {
       width: 100vh; }
       .compare-header .compare-top-left .party-list {
@@ -2927,8 +2994,7 @@ form {
           flex: 1;
           color: #444444;
           font-size: 0.8em;
-          border: 1px #444444 solid;
-          padding: 10px; }
+          border: 1px #444444 solid; }
     .compare-header .top-two-btn h3 {
       font-size: 30px;
       margin: 20px auto 20px auto;
@@ -2944,6 +3010,315 @@ form {
       padding-left: 20px; }
     .all-party-policy p {
       font-size: 0.7em;
+      padding: 10px; }
+    .all-party-policy .voteBtn {
+      text-align: center;
+      border: 1px solid black;
       padding: 10px; } }
+@media screen and (max-width: 39.9375em) {
+  /* styles for small only */
+  .video-overlay {
+    background-color: black; }
+    .video-overlay .video-fit {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      overflow: hidden; }
+      .video-overlay .video-fit video {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        left: 0;
+        top: 0; }
+
+  #top-h1 {
+    font-size: 20px;
+    color: black;
+    margin: 0; }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    width: 90%; }
+    svg path {
+      fill: white;
+      transition: 0.5s all ease; }
+
+  #modalBox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+    overflow: auto; }
+    #modalBox #pro-name {
+      font-size: 50px;
+      color: white;
+      justify-content: center; }
+    #modalBox .modalInner {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      -webkit-text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      width: 100%; }
+
+  .libe-color {
+    background-color: #e6263c; }
+
+  .cons-color {
+    background-color: #1173ba; }
+
+  .ndp-color {
+    background-color: #e8951b; }
+
+  .gree-color {
+    background-color: #22a77e;
+    color: black; }
+
+  .bloc-color {
+    background-color: gray; }
+
+  .inde-color {
+    background-color: #444444; }
+
+  h1 {
+    text-align: center; }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0; }
+
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 10px;
+    margin: auto; }
+    table th, table td {
+      text-align: left;
+      padding: 10px; }
+
+  /*
+      td {
+          width:25%;
+          padding:30px;
+      }
+  */ }
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  /* styles for medium only */
+  .video-overlay {
+    background-color: black; }
+    .video-overlay .video-fit {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      overflow: hidden; }
+      .video-overlay .video-fit video {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        left: 0;
+        top: 0; }
+
+  #top-h1 {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 50%; }
+
+  svg {
+    position: absolute;
+    left: 40%;
+    top: 20%; }
+    svg path {
+      fill: white;
+      transition: 0.5s all ease; }
+
+  #modalBox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+    overflow: auto; }
+    #modalBox #pro-name {
+      font-size: 50px;
+      color: white;
+      justify-content: center; }
+    #modalBox .modalInner {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      -webkit-text-align: center;
+      left: 5%;
+      color: white;
+      width: 90%; }
+
+  .libe-color {
+    background-color: #e6263c; }
+
+  .cons-color {
+    background-color: #1173ba; }
+
+  .ndp-color {
+    background-color: #e8951b; }
+
+  .gree-color {
+    background-color: #22a77e;
+    color: black; }
+
+  .bloc-color {
+    background-color: gray; }
+
+  .inde-color {
+    background-color: #444444; }
+
+  h1 {
+    text-align: center; }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px; }
+    table th, table td {
+      text-align: left;
+      padding: 15px; }
+
+  /*
+      td {
+          width:25%;
+          padding:30px;
+      }
+  */ }
+@media screen and (min-width: 64em) {
+  /* styles for large and onward only */
+  .video-overlay {
+    background-color: black; }
+    .video-overlay .video-fit {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      overflow: hidden; }
+      .video-overlay .video-fit video {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        left: 0;
+        top: 0; }
+
+  #top-h1 {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 50%; }
+
+  svg {
+    position: absolute;
+    left: 35%; }
+    svg path {
+      fill: white;
+      transition: 0.5s all ease; }
+
+  #modalBox {
+    display: none;
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    left: 28%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+    overflow: auto; }
+    #modalBox #pro-name {
+      font-size: 70px;
+      color: white;
+      justify-content: center; }
+    #modalBox .modalInner {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      -webkit-text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      width: 90%; }
+
+  .libe-color {
+    background-color: #e6263c; }
+
+  .cons-color {
+    background-color: #1173ba; }
+
+  .ndp-color {
+    background-color: #e8951b; }
+
+  .gree-color {
+    background-color: #22a77e;
+    color: black; }
+
+  .bloc-color {
+    background-color: gray; }
+
+  .inde-color {
+    background-color: #444444; }
+
+  h1 {
+    text-align: center; }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px; }
+    table th, table td {
+      text-align: left;
+      padding: 8px; }
+
+  /*
+      td {
+          width:25%;
+          padding:30px;
+      }
+  */ }
 
 /*# sourceMappingURL=main.css.map */

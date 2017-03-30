@@ -17,7 +17,7 @@
                         </th>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="small-">
                             Syrian Refugees
                         </td>
                         <td>
@@ -46,7 +46,7 @@
                         </td>
                     </tr>
                 </table>
-                </div>
+                </div> 
             </div>
         </div>
         <div class="small-12 medium-12 large-2 columns">
@@ -70,6 +70,7 @@
             pariatur. Excepteur sint occaecat cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <h3 class="voteBtn btn">Vote</h3>
     </div>
 <!--    <div class="small-12 medium-12 large-2 columns">
         <h3>test</h3>
@@ -88,6 +89,7 @@
             pariatur. Excepteur sint occaecat cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <h3 class="voteBtn btn">Vote</h3>
     </div>
 <!--    <div class="small-12 medium-12 large-2 columns">
         <h3>test</h3>
@@ -106,6 +108,7 @@
             pariatur. Excepteur sint occaecat cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <h3 class="voteBtn btn">Vote</h3>
     </div>
 <!--    <div class="small-12 medium-12 large-2 columns">
         <h3>test</h3>
@@ -124,6 +127,7 @@
             pariatur. Excepteur sint occaecat cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <h3 class="voteBtn btn">Vote</h3>
     </div>
 <!--    <div class="small-12 medium-12 large-2 columns">
         <h3>test</h3>
