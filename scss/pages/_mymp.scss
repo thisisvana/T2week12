@@ -313,8 +313,13 @@ table {
 
 }
 svg {
-    position: absolute;
-    left: 35%;
+/*    position: absolute;
+    left: 35%;*/
+    display:block;
+    text-align:center;
+    
+    width:100%;
+    
     
     //transform: translateX(-50%);
     //background-color : rgba(0,0,0,0.5);
