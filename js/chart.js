@@ -32,7 +32,7 @@ $(document).ready(function(){
             // Build the chart
             Highcharts.chart('container', {
               chart: {
-                plotBackgroundColor: null,
+                plotBackgroundColor: "#ededed",
                 plotBorderWidth: null,
                 plotShadow: false,
                 type: 'pie'
