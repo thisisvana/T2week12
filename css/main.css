@@ -2855,9 +2855,25 @@ form {
   background: url("../img/Canada_Parliament_Buildings.jpg") no-repeat center center fixed;
   background-size: cover; }
 
+.covervid-video {
+  height: 100vh;
+  filter: grayscale(100%); }
+
+.covervid-wrapper {
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+
+.home-banner {
+  padding: 0;
+  position: relative; }
+
 .banner {
+  position: absolute;
   width: 100%;
   height: 100%;
+  top: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -2876,9 +2892,9 @@ form {
 
 .bars {
   display: flex;
-  margin: auto;
+  margin: 0;
   width: 25%;
-  height: 100vh; }
+  height: 80vh; }
   .bars:first-child {
     background-color: #e8951b;
     opacity: 0.8; }
@@ -3316,34 +3332,53 @@ form {
   */ }
 .compare-header {
   background-color: #444444;
-  opacity: 0.9;
   height: 100vh; }
 
+.party-list li a {
+  cursor: pointer; }
+
+.party-topic-list {
+  width: 100%; }
+
 .all-party-policy {
-  background-color: #ededed; }
+  background-color: white; }
 
 .policies {
+  padding: 0;
   display: flex; }
   .policies li {
-    flex-wrap: wrap; }
+    flex: 1;
+    font-size: 0.9rem; }
+  @media screen and (max-width: 39.9375rem) {
+    .policies {
+      flex-wrap: wrap; } }
+  @media screen and (min-width: 40rem) and (max-width: 63.9375rem) {
+    .policies {
+      flex-wrap: wrap; } }
+
+.parties-pol {
+  padding: 1.5rem;
+  border: 0.2rem solid #ededed; }
 
 @media screen and (max-width: 39.9375em) {
   .compare-header {
     height: 100%;
     overflow: auto;
-    padding-top: 20px; }
+    padding-top: 0; }
     .compare-header .compare-top-left {
       width: 100%; }
       .compare-header .compare-top-left .party-list {
         width: 100%;
-        padding: 0; }
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
         .compare-header .compare-top-left .party-list li {
-          flex: 1;
-          color: #444444;
+          display: flex;
           border: 2px solid black;
-          padding: 20px 10px;
+          padding: 0.5rem;
           text-align: center;
-          font-size: 0.8em; }
+          font-size: 0.8rem; }
         .compare-header .compare-top-left .party-list li:nth-child(1) {
           border-color: #e8951b; }
         .compare-header .compare-top-left .party-list li:nth-child(2) {
@@ -3352,42 +3387,24 @@ form {
           border-color: #e6263c; }
         .compare-header .compare-top-left .party-list li:nth-child(4) {
           border-color: #1173ba; }
-      .compare-header .compare-top-left .party-topic-list {
-        height: 100%;
-        width: 100%;
-        padding-top: 30px;
-        padding-bottom: 40px;
-        text-align: center;
-        color: #444444;
-        font-size: 1em; }
-        .compare-header .compare-top-left .party-topic-list .list {
-          border: 1px #444444 solid;
-          margin: 10px 0 10px 0;
-          padding: 20px;
-          text-align: center; }
-      .compare-header .compare-top-left .list-title {
-        color: #891f86;
-        font-size: 1.2em;
-        margin-bottom: 30px; }
 
   .top-two-btn {
     display: flex;
     text-align: center;
-    margin-top: 50px; }
+    margin: 1rem 0; }
     .top-two-btn .two-btn {
       flex: 1;
       font-size: 1em;
-      padding: 20px;
-      margin: 0 10px 0 10px;
-      border: 1px solid black; }
+      padding: 1rem;
+      margin: 0 10px 0 10px; }
 
   .all-party-policy {
     overflow: auto;
-    padding-top: 50px; }
+    padding-top: 20px; }
     .all-party-policy h2 {
       font-size: 1.5em;
       padding-left: 20px;
-      margin-top: 50px;
+      margin-top: 20px;
       margin-bottom: 10px; }
     .all-party-policy p {
       font-size: 0.7em;
@@ -3416,7 +3433,7 @@ form {
           border: 2px solid black;
           padding: 20px;
           text-align: center;
-          font-size: 1em; }
+          font-size: 0.9rem; }
         .compare-header .compare-top-left .party-list li:nth-child(1) {
           border-color: #e8951b; }
         .compare-header .compare-top-left .party-list li:nth-child(2) {
@@ -3431,45 +3448,28 @@ form {
         padding-top: 30px;
         padding-bottom: 40px;
         text-align: center; }
-        .compare-header .compare-top-left .party-topic-list .list-title {
-          font-size: 2em; }
-        .compare-header .compare-top-left .party-topic-list .list {
-          flex: 1;
-          color: #444444;
-          font-size: 1.1em;
-          border: 1px #444444 solid;
-          padding: 10px;
-          margin-top: 10px;
-          margin-bottom: 10px; }
-      .compare-header .compare-top-left .list-title {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-        color: #891f86; }
-    .compare-header .top-two-btn h3 {
-      font-size: 0.8em;
-      margin: 20px auto 20px auto;
-      padding: 10px;
+    .compare-header .top-two-btn {
+      display: flex;
       text-align: center;
-      border: 1px solid; }
-
-  .top-two-btn {
-    display: flex;
-    text-align: center;
-    margin-top: 50px; }
-    .top-two-btn .two-btn {
-      flex: 1;
-      align-items: center;
-      justify-content: center;
-      font-size: 1em;
-      padding: 20px;
-      margin: 0 10px 0 10px;
-      border: 1px solid black; }
+      margin-top: 30px; }
+      .compare-header .top-two-btn .two-btn {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        padding: 20px;
+        margin: 10px; }
+      .compare-header .top-two-btn h3 {
+        font-size: 0.8em;
+        margin: 10px auto;
+        padding: 1rem;
+        text-align: center; }
 
   .all-party-policy {
     overflow: auto;
-    padding-top: 50px; }
+    padding-top: 30px; }
     .all-party-policy h2 {
-      font-size: 2em; }
+      font-size: 1.5em; }
     .all-party-policy p {
       font-size: 0.7em;
       padding: 10px;
@@ -3494,7 +3494,7 @@ form {
         .compare-header .compare-top-left .party-list li {
           flex: 1;
           color: #444444;
-          border: 2px solid black;
+          border: 2px solid;
           padding: 20px;
           text-align: center;
           font-size: 1.5em; }
@@ -3512,20 +3512,6 @@ form {
         padding-top: 30px;
         padding-bottom: 40px;
         text-align: center; }
-        .compare-header .compare-top-left .party-topic-list .list-title {
-          font-size: 2em; }
-        .compare-header .compare-top-left .party-topic-list .list {
-          flex: 1;
-          color: #444444;
-          font-size: 1.1em;
-          border: 1px #444444 solid;
-          padding: 10px;
-          margin-top: 10px;
-          margin-bottom: 10px; }
-      .compare-header .compare-top-left .list-title {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-        color: #891f86; }
 
   .top-two-btn {
     text-align: center; }
@@ -3534,14 +3520,13 @@ form {
       flex: 1;
       font-size: 1em;
       padding: 20px;
-      margin: 20px 0px 20px 0;
-      border: 1px solid black; }
+      margin: 20px 0; }
 
   .all-party-policy {
     overflow: auto;
     padding-top: 50px; }
     .all-party-policy h2 {
-      font-size: 2em; }
+      font-size: 2rem; }
     .all-party-policy p {
       font-size: 0.7em;
       padding: 10px;

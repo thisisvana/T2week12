@@ -7,4 +7,4 @@ function randomizeVideo(){
 
 randomizeVideo();
 
-$('.covervid-video').coverVid(1080, 720);
+$('.covervid-video').coverVid(1080, 1060);

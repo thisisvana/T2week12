@@ -9,7 +9,7 @@
         <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Arapey|Oranienbaum" rel="stylesheet">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
         <script src="https://use.fontawesome.com/1845926a10.js"></script>
     </head>
     <body>

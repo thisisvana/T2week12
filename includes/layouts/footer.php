@@ -12,6 +12,7 @@
     </div>
   </div>
 </footer>
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 <?php
 // Close database connection
 if (isset($connection)) {
