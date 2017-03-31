@@ -82,4 +82,5 @@ $(document).ready(function(){
     $("#ndpResult").text(localStorage.ndpResult);
     $("#greenResult").text(localStorage.greenResult);
   });
+
 });

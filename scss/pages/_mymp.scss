@@ -315,13 +315,14 @@ table {
 svg {
     position: absolute;
     left: 35%;
+    
     //transform: translateX(-50%);
     //background-color : rgba(0,0,0,0.5);
 
     //text-align:center;
 
     path {
-        fill: white;
+        //fill: grey;
         transition: 0.5s all ease;
     }
 }

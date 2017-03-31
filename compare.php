@@ -4,17 +4,17 @@
        <div class="small-12 medium-12 large-9 columns">
         <div class="compare-top-left">
             <ul class="party-list">
-                <li>NDP</li>
-                <li>Green</li>
-                <li>Liberal</li>
-                <li>Conservative</li>
+                <li id="ndpResult">NDP</li>
+                <li id="greenResult">Green</li>
+                <li id="libResult">Liberal</li>
+                <li id="consResult">Conservative</li>
             </ul>
         </div>
         </div>
             <div class="small-12 medium-12 large-3 columns">
             <div class="top-two-btn">
-                <h3 class="two-btn btn">Result</h3>
-                <h3 class="two-btn btn">Refresh</h3>
+                <h3 class="two-btn btn" id="final-result">Result</h3>
+                <h3 class="two-btn btn" id="clear">Refresh</h3>
             </div>
         </div>
         <div class="small-12 medium-12 large-9 columns">
@@ -56,7 +56,7 @@
                     pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <h3 class="voteBtn btn">Vote</h3>
+                <h3 class="voteBtn btn voteButton" data-vote="ndp1">Vote</h3>
             </div>
             <!--    <div class="small-12 medium-12 large-2 columns">
                     <h3>test</h3>
@@ -75,7 +75,7 @@
                     pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <h3 class="voteBtn btn">Vote</h3>
+                 <h3 class="voteBtn btn voteButton" data-vote="green1">Vote</h3>
             </div>
             <!--    <div class="small-12 medium-12 large-2 columns">
                     <h3>test</h3>
@@ -94,7 +94,7 @@
                     pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <h3 class="voteBtn btn">Vote</h3>
+                <h3 class="voteBtn btn voteButton" data-vote="liberal1">Vote</h3>
             </div>
             <!--    <div class="small-12 medium-12 large-2 columns">
                     <h3>test</h3>
@@ -113,18 +113,22 @@
                     pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <h3 class="voteBtn btn">Vote</h3>
+                <h3 class="voteBtn btn voteButton" data-vote="cons1">Vote</h3>
             </div>
             <!--    <div class="small-12 medium-12 large-2 columns">
                     <h3>test</h3>
                     <h3>test</h3>
                 </div>-->
         </div>
+        <div class="row">
+        <h1 id="result"></h1>
+        <div class="pie-chart" id="container"></div>
+        </div>
+    
     <!--</div>-->
     <!--<div class="small-12 medium-3 large-3 columns">-->
         <!--</div>-->
 
 </div>
-</header>
 
 <?php include "partials/footer.php"; ?>

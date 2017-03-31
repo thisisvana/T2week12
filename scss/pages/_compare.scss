@@ -1,7 +1,7 @@
 
 .compare-header {
   background-color: $dark-grey;
-  opacity: 0.9;
+  //opacity: 0.9;
   height: 100vh;
   // display: flex;
 }
@@ -38,7 +38,7 @@
 
                 li {
                     flex:1;
-                    color:$dark-grey;
+                    color:$light-grey;
                     border:2px solid black;
                     padding: 20px 10px;
                     text-align: center;
@@ -68,7 +68,7 @@
                 color:$dark-grey;
                 font-size: 1em;
                 .list {
-                    border:1px$dark-grey solid;
+                    border:1px $dark-grey solid;
                     margin: 10px 0 10px 0;
                     padding:20px;
                     text-align: center;
@@ -256,7 +256,7 @@
 
                 li {
                     flex:1;
-                    color:$dark-grey;
+                    color:$light-grey;
                     border:2px solid black;
                     padding: 20px;
                     text-align: center;
@@ -332,5 +332,18 @@
             width:100%;
         }
     }
-
+    .pie-chart {
+/*        display:none;*/
+        //background-color: black;
+        position:absolute;
+        top:50%;
+        transform:translateY(-50%);
+        min-width:1000px;
+        width:1000px; 
+        height: 400px;
+        max-width: 1500px;
+        margin:auto; 
+        
+    }
+   
 }
