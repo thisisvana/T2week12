@@ -1,32 +1,55 @@
 
 .compare-header {
   background-color: $dark-grey;
-  //opacity: 0.9;
+
+  // opacity: 0.9;
+
   height: 100vh;
   // display: flex;
 }
+.party-list{
+  li{
+    a{
+      cursor: pointer;
+    }
+  }
+
+}
+.party-topic-list {
+  width: 100%;
+}
 .all-party-policy {
-  background-color: $light-grey;
+  background-color: white;
+
 }
 .policies {
-  // width: 100%;
+  padding: 0;
   display: flex;
-  li{
-    // display: flex;
-    flex-wrap: wrap;
 
+  li{
+    flex: 1;
+    font-size: 0.9rem;
 
   }
-  // flex-direction: column;
-
-
+  @media screen and (max-width: $mobile-max){
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: $tablet-min) and (max-width: $tablet-max){
+    flex-wrap: wrap;
+  }
 }
+
+.parties-pol {
+  padding: 1.5rem;
+  border: 0.2rem solid $light-grey;
+}
+
 
 @media screen and (max-width: 39.9375em) {
     .compare-header {
         height:100%;
         overflow:auto;
-        padding-top:20px;
+        padding-top:0;
 
         .compare-top-left {
             width:100%;
@@ -35,14 +58,22 @@
             .party-list {
                 width:100%;
                 padding:0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
                 li {
+
                     flex:1;
                     color:$light-grey;
+
+                    display: flex;
+                    // color:$dark-grey;
+
                     border:2px solid black;
-                    padding: 20px 10px;
+                    padding: 0.5rem;
                     text-align: center;
-                    font-size:0.8em;
+                    font-size:0.8rem;
                 }
 
                 li:nth-child(1){
@@ -59,6 +90,7 @@
                 }
 
             }
+
             .party-topic-list {
                 height:100%;
                 width:100%;
@@ -74,34 +106,28 @@
                     text-align: center;
                 }
 
-            }
-            .list-title {
-                color:$brand-color;
-                font-size:1.2em;
-                margin-bottom:30px;
-            }
-
         }
     }
+
     .top-two-btn {
         display: flex;
         text-align: center;
-        margin-top:50px;
+        margin:1rem 0;
         .two-btn {
             flex: 1;
             font-size:1em;
-            padding:20px;
+            padding:1rem;
             margin:0 10px 0 10px;
-            border:1px solid black;
+            // border:1px solid black;
         }
     }
     .all-party-policy {
         overflow: auto;
-        padding-top:50px;
+        padding-top:20px;
         h2 {
             font-size: 1.5em;
             padding-left:20px;
-            margin-top:50px;
+            margin-top:20px;
             margin-bottom:10px;
         }
 
@@ -141,7 +167,7 @@
                     border:2px solid black;
                     padding: 20px;
                     text-align: center;
-                    font-size:1em;
+                    font-size:0.9rem;
                 }
 
                 li:nth-child(1){
@@ -167,59 +193,39 @@
                 padding-bottom:40px;
                 text-align: center;
 
-                .list-title {
-                    font-size : 2em;
-                }
-
-                .list {
-                    flex:1;
-                    color:$dark-grey;
-                    font-size: 1.1em;
-                    border:1px$dark-grey solid;
-                    padding:10px;
-                    margin-top:10px;
-                    margin-bottom:10px;
-                }
-
 
             }
-            .list-title {
-                font-size: 1.5em;
-                margin-bottom: 20px;
-                color:$brand-color;
-            }
+
 
         }
         .top-two-btn {
+          display: flex;
+          text-align: center;
+          margin-top:30px;
+          .two-btn {
+              flex: 1;
+              align-items: center;
+              justify-content: center;
+              font-size:1em;
+              padding:20px;
+              margin:10px;
 
+          }
             h3 {
                 font-size:0.8em;
-                margin:20px auto 20px auto;
-                padding:10px;
+                margin:10px auto;
+                padding:1rem;
                 text-align: center;
-                border:1px solid;
+                // border:1px solid;
             }
         }
     }
-    .top-two-btn {
-        display: flex;
-        text-align: center;
-        margin-top:50px;
-        .two-btn {
-            flex: 1;
-            align-items: center;
-            justify-content: center;
-            font-size:1em;
-            padding:20px;
-            margin:0 10px 0 10px;
-            border:1px solid black;
-        }
-    }
+
     .all-party-policy {
         overflow: auto;
-        padding-top:50px;
+        padding-top:30px;
         h2 {
-            font-size: 2em;
+            font-size: 1.5em;
 
         }
 
@@ -256,8 +262,9 @@
 
                 li {
                     flex:1;
-                    color:$light-grey;
-                    border:2px solid black;
+
+                    color:$dark-grey;
+                    border: 2px solid;
                     padding: 20px;
                     text-align: center;
                     font-size:1.5em;
@@ -282,24 +289,9 @@
                 padding-top:30px;
                 padding-bottom:40px;
                 text-align: center;
-                .list-title {
-                    font-size : 2em;
-                }
-                .list {
-                    flex:1;
-                    color:$dark-grey;
-                    font-size: 1.1em;
-                    border:1px$dark-grey solid;
-                    padding:10px;
-                    margin-top:10px;
-                    margin-bottom:10px;
-                }
+
             }
-            .list-title {
-                font-size: 1.5em;
-                margin-bottom: 20px;
-                color:$brand-color;
-            }
+
         }
     }
     .top-two-btn {
@@ -310,15 +302,15 @@
             flex: 1;
             font-size:1em;
             padding:20px;
-            margin:20px 0px 20px 0;
-            border:1px solid black;
+            margin:20px 0;
+
         }
     }
     .all-party-policy {
         overflow: auto;
         padding-top:50px;
         h2 {
-            font-size: 2em;
+            font-size: 2rem;
 
         }
 
