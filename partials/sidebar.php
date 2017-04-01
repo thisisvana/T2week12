@@ -67,7 +67,7 @@
                             <div class="modal-content">
                               <p>Enter your name and email</p>
 
-                              <form method="post" action="form_submit.php">
+                              <form method="post" action="#">
 
 
                                  <input type="text" class="c-placeholder" id="form-name" name="name" placeholder="name" required />

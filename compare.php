@@ -70,6 +70,13 @@
               <h3 class="voteBtn btn voteButton" data-vote="ndp1">Vote</h3>
           </div>
 
+        <div class="chart-graphic">
+          <h3 id="result"></h3>
+          <div class="pie-chart" id="container"></div>
+        </div>
+
+    <!--<div class="large-9 medium-8 small-12 columns">-->
+        <div class="all-party-policy syr-ref small-12 medium-12 large-12 columns">
 
           <div class="parties-pol green small-12 medium-12 large-3 columns">
               <div><h4>Green</h4>

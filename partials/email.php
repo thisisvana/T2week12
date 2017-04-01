@@ -33,13 +33,13 @@
 
 		$didItSend = mail($to, $subject, $message, $headers);	// Send email
 
-		if($didItSend) {
-						 http_response_code(200);
-						 echo "Thank you for subscribing";
-					 } else {
-						 http_response_code(500);
-						 echo "Sorry, there was a problem. Failed to send request.";
-					 }
+		if($didItSend == true) {
+
+			 echo "Thank you for subscribing";
+		 } else {
+
+			 echo "Sorry, there was a problem. Failed to send request.";
+		 }
 
 	}
 ?>
