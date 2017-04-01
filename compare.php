@@ -277,6 +277,69 @@
             </div>
 
         </div>
+
+<!--row 8-->
+        <div class="all-party-policy corp small-12 medium-12 large-12 columns">
+            <div class="parties-pol small-12 medium-12 large-3 columns">
+                <h4>NDP</h4>
+                <p>The NDP promises to reverse the corporate tax cuts, though will not bring them back to where they were before the Conservatives gained power. The NDP would raise the tax to “less than 17.5%, from its current 15%.” They would also close what they call the Stock Option Loophole.</p>
+                <h3 class="voteBtn btn voteButton" data-vote="ndp1">Vote</h3>
+            </div>
+
+            <div class="parties-pol small-12 medium-12 large-3 columns">
+                <h4>Green</h4>
+                <p>The Green Party would completely reverse the corporate tax cuts made by the Conservative government.
+                </p>
+                 <h3 class="voteBtn btn voteButton" data-vote="green1">Vote</h3>
+            </div>
+
+
+            <div class="parties-pol small-12 medium-12 large-3 columns">
+                <h4>Liberal</h4>
+                <p>The Liberals say that reductions in corporate tax rates may be necessary depending on future changes in the US, but that the party plans to maintain the current rate.                </p>
+                <h3 class="voteBtn btn voteButton" data-vote="liberal1">Vote</h3>
+            </div>
+
+            <div class="parties-pol small-12 medium-12 large-3 columns">
+                <h4>Conservative</h4>
+                <p>Under the Conservative government Canada’s federal corporate income tax rate has dropped from 21 per cent to 15 percent. They favour keeping it at its current rate.
+                </p>
+                <h3 class="voteBtn btn voteButton" data-vote="cons1">Vote</h3>
+            </div>
+
+        </div>
+
+        <!--row 9-->
+                <div class="all-party-policy small-tax small-12 medium-12 large-12 columns">
+                    <div class="parties-pol small-12 medium-12 large-3 columns">
+                        <h4>NDP</h4>
+                        <p>The NDP supports the Conservative tax cut to small businesses, and say they will keep the cut from 11 per cent to 9.</p>
+                        <h3 class="voteBtn btn voteButton" data-vote="ndp1">Vote</h3>
+                    </div>
+
+                    <div class="parties-pol small-12 medium-12 large-3 columns">
+                        <h4>Green</h4>
+                        <p>Establish a federally-funded Green Venture Capital Fund to support viable local businesses, reduce the paperwork burden on small businesses by eliminating red tape, and ensure that small businesses are exempt from any increases to the corporate tax rate.
+                        </p>
+                         <h3 class="voteBtn btn voteButton" data-vote="green1">Vote</h3>
+                    </div>
+
+
+                    <div class="parties-pol small-12 medium-12 large-3 columns">
+                        <h4>Liberal</h4>
+                        <p>The Liberals would retain the tax break from 11% to 9% for small businesses, but Justin Trudeau has some concerns about implementation, saying he wants to make sure that it doesn’t primarily benefit the wealthy who may use small businesses to reduce their tax burden.</p>
+                        <h3 class="voteBtn btn voteButton" data-vote="liberal1">Vote</h3>
+                    </div>
+
+                    <div class="parties-pol small-12 medium-12 large-3 columns">
+                        <h4>Conservative</h4>
+                        <p>The Conservatives promise to reduce the small business tax rate from 11 per cent to 9 per cent by 2019. The tax cut is costed at approx. $2.7 billion over the next five years.
+                        </p>
+                        <h3 class="voteBtn btn voteButton" data-vote="cons1">Vote</h3>
+                    </div>
+
+                </div>
+
         <div class="row">
         <h1 id="result"></h1>
         <div class="pie-chart" id="container"></div>
