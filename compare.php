@@ -52,7 +52,10 @@
         </div>
 
         <!--</div>-->
-
+        <div class="chart-graphic small-12 medium-12 large-12 columns">
+          <h1 id="result"></h1>
+          <div class="pie-chart" id="container"></div>
+        </div>
 
 
       <div class="display-pol">
@@ -382,10 +385,7 @@
 
 
 
-        <div class="chart-">
-          <h1 id="result"></h1>
-          <div class="pie-chart" id="container"></div>
-        </div>
+
 
 
 
