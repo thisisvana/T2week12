@@ -1,7 +1,7 @@
 <?php include "partials/sidebar.php"; ?>
 <div class="home-banner medium-8 large-9 columns">
   <div class="covervid-wrapper hide-for-small-only columns">
-    <video class="covervid-video" id="randomSrc" src="videos/canada0.m4v" type="video/mp4" poster="img/ Canada_Parliament_Buildings.jpg" autoplay loop></video>
+    <video class="covervid-video" id="randomSrc" src="videos/canada0.m4v" type="video/mp4" poster="img/Canada_Parliament_Buildings.jpg" autoplay loop></video>
   </div>
 
 
