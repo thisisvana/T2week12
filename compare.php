@@ -60,6 +60,12 @@
 
     <!--<div class="large-9 medium-8 small-12 columns">-->
         <div class="all-party-policy syr-ref small-12 medium-12 large-12 columns">
+          <div class="chart-graphic">
+            <h3 id="result"></h3>
+            <div class="pie-chart" id="container"></div>
+          </div>
+
+
             <div class="parties-pol small-12 medium-12 large-3 columns">
                 <div><h4>NDP</h4>
                 <p>Bring in 10,000 Syrian refugees by the end of the year, and resettle 9,000 every year until 2019.
@@ -382,10 +388,6 @@
 
 
 
-        <div class="chart-">
-          <h1 id="result"></h1>
-          <div class="pie-chart" id="container"></div>
-        </div>
 
 
 
