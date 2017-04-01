@@ -1,16 +1,16 @@
 <?php
 	// Check to see if Submit has been pressed and if all fields have been filled
-	if(isset($_POST["f_submit"]) AND 
-			 $_POST["name"] != "" AND 
+	if(isset($_POST["f_submit"]) AND
+			 $_POST["name"] != "" AND
 			 $_POST["email"] != "") {
-		
+
 		// Everything is ok so send email
 		sendMail($_POST["name"], $_POST["email"]);
 	}
 
 //Send mail function
 	function sendMail($name, $email) {
-		$to = $email;	
+		$to = $email;
 		$subject = "Welcome to Make Your Vote Up $name";
 
 		$message = "<html> <head> <title>HTML email</title> </head>\n";
@@ -32,5 +32,14 @@
 		$headers .= "From: michaelside0@gmail.com\r\n";
 
 		$didItSend = mail($to, $subject, $message, $headers);	// Send email
+
+		if($didItSend) {
+						 http_response_code(200);
+						 echo "Thank you for subscribing";
+					 } else {
+						 http_response_code(500);
+						 echo "Sorry, there was a problem. Failed to send request.";
+					 }
+
 	}
 ?>
