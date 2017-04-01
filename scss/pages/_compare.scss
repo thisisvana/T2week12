@@ -2,8 +2,6 @@
 .compare-header {
   background-color: $dark-grey;
 
-  // opacity: 0.9;
-
   height: 100vh;
   // display: flex;
 }
@@ -48,7 +46,6 @@
   padding: 1.5rem;
   border: 0.2rem solid $light-grey;
 }
-
 
 @media screen and (max-width: 39.9375em) {
     .compare-header {
