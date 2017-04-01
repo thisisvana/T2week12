@@ -56,7 +56,10 @@
                 </p>
                 <h3 class="voteBtn btn voteButton" data-vote="ndp1">Vote</h3>
             </div>
-
+            <!--    <div class="small-12 medium-12 large-2 columns">
+                    <h3>test</h3>
+                    <h3>test</h3>
+                </div>-->
 
             <div class="parties-pol small-12 medium-12 large-3 columns">
                 <h4>Green</h4>
@@ -64,7 +67,10 @@
                 </p>
                  <h3 class="voteBtn btn voteButton" data-vote="green1">Vote</h3>
             </div>
-          
+            <!--    <div class="small-12 medium-12 large-2 columns">
+                    <h3>test</h3>
+                    <h3>test</h3>
+                </div>-->
 
             <div class="parties-pol small-12 medium-12 large-3 columns">
                 <h4>Liberal</h4>
