@@ -24,7 +24,7 @@ $(document).ready(function(){
     location.reload();
   });
 
-  //Click function for filtering
+  //Click function for filtering Party topics
   $(".filterButton").click(function(){
   //get filter data from button for use in toggling hide class
     var filter = $(this).data("filter");
@@ -32,6 +32,23 @@ $(document).ready(function(){
     $("." + filter).each(function(){
       $(this).toggleClass("hide");
     });
+  });
+
+//global variable to ensure clicking on a topic twice doesn't mess up the class toggling
+  var currentTopic = 'topic1';
+//Click function for filtering topics
+  $(".filterButtonTopic").click(function(){
+//get filter data from button for use in toggling hide class
+    var filter = $(this).data("filter");
+//test if element has the class hide
+    var isHideApplied = $("." + currentTopic).hasClass("hide");
+//if statement to ensure that clicking on a topic twice doesn't mess up the class toggling
+    if(isHideApplied != true){
+      $("." + filter).toggleClass("hide");
+      $("." + currentTopic).toggleClass("hide");
+    }
+//update global variable for double clicking
+    currentTopic = $(this).data("filter");
   });
 
   //Assigning vote to appropriate party function
