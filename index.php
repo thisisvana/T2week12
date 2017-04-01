@@ -26,6 +26,8 @@
 
 
 
+<script src="js/covervid.min.js"></script>
 
+<script src="js/mike-covervid.js"></script>
 
 <?php include "partials/footer.php"; ?>
