@@ -1,3 +1,31 @@
+.compare-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  li {
+    flex:1;
+    cursor: pointer;
+
+    &:first-child {
+      color: $ndp;
+      font-size: 2rem;
+
+    }
+    &:nth-child(2){
+      color: $green;
+      font-size: 2rem;
+    }
+    &:nth-child(3){
+      color: $liberal;
+      font-size: 2rem;
+    }
+    &:nth-child(4){
+      color: $conservative;
+      font-size: 2rem;
+    }
+  }
+}
 
 .compare-header {
   background-color: $dark-grey;
@@ -6,6 +34,13 @@
 
   height: 100vh;
   // display: flex;
+}
+.parties-pol {
+  height: 30rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+
 }
 .party-list{
   li{
@@ -23,15 +58,16 @@
 .all-party-policy {
   background-color: white;
 
+
 }
-.parties-pol {
-  height: 30rem;
-}
+
+
+
 .policies {
   padding: 0;
   display: flex;
 
-  li{
+  li {
     flex: 1;
     font-size: 0.9rem;
 
@@ -339,15 +375,15 @@
             margin-bottom:30px;
         }
         .voteBtn {
-            margin-bottom: 50px;
+
             width:100%;
         }
     }
     .pie-chart {
-/*        display:none;*/
+       display:none;
         //background-color: black;
         position:absolute;
-        top:60%;
+        top:50%;
         transform:translateY(-50%);
         //min-width:1000px;
 
