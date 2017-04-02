@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('#final-result').click(function(){
+  $('.final-result').click(function(){
               $('#container-chart').css('display','block');
               displayChart() });
            });
