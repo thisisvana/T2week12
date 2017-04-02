@@ -36,7 +36,7 @@
                     </ul>
                     <div class="sub-form hide-for-small-only columns">
                       <p>Subscribe</p>
-                      <form method="post" action="form_submit.html">
+                      <form method="post" action="#">
                          <input type="text" class="c-placeholder" id="form-name" name="name" placeholder="name" required />
 
                          <!-- <label for="form-email">Email*</label><br> -->
@@ -70,10 +70,10 @@
                               <form method="post" action="#">
 
 
-                                 <input type="text" class="c-placeholder" id="form-name" name="name" placeholder="name" required />
+                                 <input type="text" class="c-placeholder" id="form-n" name="name" placeholder="name" required />
 
                                  <!-- <label for="form-email">Email*</label><br> -->
-                                 <input type="text" class="c-placeholder" id="form-email" name="email" placeholder="example@example.com" required />
+                                 <input type="text" class="c-placeholder" id="form-e" name="email" placeholder="example@example.com" required />
                                  <!-- <input id="send-btn" type="submit" name="submit" class="btn" value="Send"> -->
                                  <div>
                                    <button type="submit" name="submit" class="btn modal-hide">Send</button>

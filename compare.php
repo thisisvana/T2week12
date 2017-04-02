@@ -359,4 +359,7 @@
           </div>
 
       </div>
+    </div>
+  </div>
+</header>
 <?php include "partials/footer.php"; ?>
