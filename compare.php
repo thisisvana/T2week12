@@ -14,7 +14,7 @@
         </div>
         <div class="show-for-large medium-12 large-3 columns">
             <div class="top-two-btn">
-                <h3 class="two-btn btn" id="final-result">Result</h3>
+                <h3 class="two-btn btn final-result-chart" id="">Result</h3>
                 <h3 class="two-btn btn" id="clear">Refresh</h3>
             </div>
         </div>
@@ -46,8 +46,13 @@
         </div>
         <div class="hide-for-large small-12 medium-12 columns">
             <div class="top-two-btn">
+
+                <h3 class="two-btn btn final-result-chart" id="final-result-chart">Result</h3>
+                <h3 class="two-btn btn">Refresh</h3>
+
                 <h3 class="two-btn btn">Result</h3>
                 <h3 id="clear" class="two-btn btn">Refresh</h3>
+
             </div>
         </div>
 
@@ -55,7 +60,7 @@
 
 
 
-      <div class="display-pol">
+    <div class="display-pol">
 
       <div class="chart-graphic">
         <h3 id="result"></h3>
@@ -70,10 +75,6 @@
               <h3 class="voteBtn btn voteButton" data-vote="ndp1">Vote</h3>
           </div>
 
-        <div class="chart-graphic">
-          <h3 id="result"></h3>
-          <div class="pie-chart" id="container"></div>
-        </div>
 
     <!--<div class="large-9 medium-8 small-12 columns">-->
         <div class="all-party-policy syr-ref small-12 medium-12 large-12 columns">
