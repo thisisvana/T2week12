@@ -1,22 +1,22 @@
 $(document).ready(function(){
 
   $('#final-result').click(function(){
-              $('#container').css('display','block');
+              $('#container-chart').css('display','block');
               displayChart() });
-           });     
-            
+           });
+
           function displayChart(){
-            
+
             // tally total of votes to convert to percentage
             var totalVotes = parseInt(localStorage.libResult) + parseInt(localStorage.consResult) + parseInt(localStorage.ndpResult) + parseInt(localStorage.greenResult);
-            
+
             // Make colors array and set them sections
             Highcharts.getOptions().plotOptions.pie.colors = (function () {
                 var blue='rgb(17,115,186)';
                 var red='rgb(230,38,60)';
                 var orange='rgb(232,149,27)';
                 var green='rgb(34,167,126)';
-                
+
                 var colors = [blue, red,orange, green],
                     base = Highcharts.getOptions().colors[0],
                     i;
@@ -30,7 +30,7 @@ $(document).ready(function(){
             }());
 
             // Build the chart
-            Highcharts.chart('container', {
+            Highcharts.chart('container-chart', {
               chart: {
                 plotBackgroundColor: "#ededed",
                 plotBorderWidth: null,
@@ -61,7 +61,7 @@ $(document).ready(function(){
                 x: 0,
                 y: 180
             },
-          
+
             // use localStorage values to draw the chart
             series: [{
                 name: 'Parties',
@@ -72,7 +72,7 @@ $(document).ready(function(){
               }, {
                   name: 'Liberal Party',
                   y: (parseInt(localStorage.libResult)/ totalVotes) *100
-                  
+
               }, {
                   name: 'New Democratic Party',
                   y: (parseInt(localStorage.ndpResult) / totalVotes) *100

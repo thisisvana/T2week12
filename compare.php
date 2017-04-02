@@ -50,7 +50,7 @@
                 <h3 class="two-btn btn final-result-chart" id="final-result-chart">Result</h3>
                 <h3 class="two-btn btn">Refresh</h3>
 
-                <h3 class="two-btn btn">Result</h3>
+
                 <h3 id="clear" class="two-btn btn">Refresh</h3>
 
             </div>
@@ -64,7 +64,7 @@
 
       <div class="chart-graphic">
         <h3 id="result"></h3>
-        <div class="pie-chart" id="container"></div>
+        <div class="pie-chart" id="container-chart"></div>
       </div>
     <!--<div class="large-9 medium-8 small-12 columns">-->
         <div class="all-party-policy syr-ref topic1 topic small-12 medium-12 large-12 columns">
